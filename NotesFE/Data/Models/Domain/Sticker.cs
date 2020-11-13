@@ -4,5 +4,10 @@ namespace NotesFE.Data.Models.Domain
     {
         public StickerAttributes Attributes { get; private set; }
         public StickerContent Content { get; private set; }
+
+        public Sticker(StickerContent content)
+        {
+            Content = content;
+        }
     }
 }

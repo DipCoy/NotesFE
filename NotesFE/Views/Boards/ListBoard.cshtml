@@ -1,0 +1,28 @@
+@using NotesFE.Data.Models.Domain
+@model Board
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <h2>Доска</h2>
+<div>
+    @{
+        var content = Model.Content;
+        var stickers = content.Stickers;
+        var first = stickers.First();
+        var stickerContent = first.Content;
+        var text = stickerContent.Text;
+        <h3>Content.Text: @text</h3>
+        <h3>ID: @Model.Id</h3>
+    }
+</div>
+</body>
+</html>
