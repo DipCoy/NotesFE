@@ -1,11 +1,27 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace NotesFE.Data.Models.Domain
 {
     public class Board //entity
     {
-        private int Id { get; set; }
-        public BoardAttributes Attributes { get; private set; }
-        public BoardContent Content { get; private set; }
+        public int Id { get; set;}
+        public BoardAttributes Attributes { get; set; }
+        public BoardContent Content { get; set; }
+
+        public Board()
+        {
+            
+        }
+        public Board(int id, BoardContent content)
+        {
+            Id = id;
+            Content = content;
+        }
+
+        public override string ToString()
+        {
+            return Content.Stickers.First().Content.Text;
+        }
     }
 }

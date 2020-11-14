@@ -884,19 +884,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\777\\.nuget\\packages\\": {}
+    "/home/dipcoy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\NotesFE.csproj",
+      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
       "projectName": "NotesFE",
-      "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\NotesFE.csproj",
-      "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\obj\\",
+      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+      "packagesPath": "/home/dipcoy/.nuget/packages/",
+      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -906,10 +906,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj": {
-              "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj"
+            "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
+              "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
             }
           }
         }
@@ -922,7 +921,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "LiteDB": {
             "target": "Package",
@@ -943,16 +941,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.7, 3.1.7]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -961,7 +949,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
       }
     }
   }

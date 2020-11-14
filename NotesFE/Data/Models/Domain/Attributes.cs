@@ -4,7 +4,7 @@ namespace NotesFE.Data.Models.Domain
 {
     public abstract class Attributes
     {
-        public string Name { get; private set; }
+        public string Name { get; set; }
         private IDictionary<string, string> dict;
 
         public string this[string name]
