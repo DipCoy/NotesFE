@@ -1,17 +1,12 @@
 namespace NotesFE.Data.Models.Domain
 {
-    public class StickerContent
+    public class StickerContent : IHaveRecord
     {
-        public string Text { get; set; }
+        public string Text { get; private set; }
 
         public StickerContent(string text)
         {
             Text = text;
-        }
-
-        public StickerContent()
-        {
-            
         }
     }
 }
