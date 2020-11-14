@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "LiteDB/5.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -287,6 +296,26 @@
     }
   },
   "libraries": {
+    "LiteDB/5.0.9": {
+      "sha512": "cWnNWXL+qaP/qrkUCYZHBUJcv+IsfJfofa+Ed4EyT0zs/gkXqfKvjTbS3uSMBfcd9I7Yf+q9YPmCpmVFrVGQtw==",
+      "type": "package",
+      "path": "litedb/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.9.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -850,23 +879,24 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Application >= 1.0.0",
+      "LiteDB >= 5.0.9",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.1"
     ]
   },
   "packageFolders": {
-    "/home/dipcoy/.nuget/packages/": {}
+    "C:\\Users\\777\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+      "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\NotesFE.csproj",
       "projectName": "NotesFE",
-      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
-      "packagesPath": "/home/dipcoy/.nuget/packages/",
-      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
+      "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\NotesFE.csproj",
+      "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+      "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\NotesFE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -876,9 +906,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
-              "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
+            "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj": {
+              "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj"
             }
           }
         }
@@ -891,7 +922,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "LiteDB": {
+            "target": "Package",
+            "version": "[5.0.9, )"
+          },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[5.0.0-alpha.1, )"
@@ -907,6 +943,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.7, 3.1.7]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -915,7 +961,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
       }
     }
   }

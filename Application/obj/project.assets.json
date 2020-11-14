@@ -49,19 +49,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dipcoy/.nuget/packages/": {}
+    "C:\\Users\\777\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
+      "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
-      "packagesPath": "/home/dipcoy/.nuget/packages/",
-      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Application/obj/",
+      "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
+      "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -71,12 +71,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-              "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
+            "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj"
             },
-            "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
+            "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -89,6 +90,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -99,6 +101,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.7, 3.1.7]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -107,7 +119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
       }
     }
   }
