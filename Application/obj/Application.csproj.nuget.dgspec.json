@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj": {}
+    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {}
   },
   "projects": {
-    "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj": {
+    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj",
+        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\obj\\",
+        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
+        "packagesPath": "/home/dipcoy/.nuget/packages/",
+        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,13 +24,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj"
+              "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
+                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
               },
-              "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj"
+              "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -43,7 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,16 +52,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.7, 3.1.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj": {
+    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\obj\\",
+        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
+        "packagesPath": "/home/dipcoy/.nuget/packages/",
+        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -96,7 +84,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -108,7 +95,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -119,16 +105,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.7, 3.1.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -137,21 +113,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
+    "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\obj\\",
+        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/dipcoy/.nuget/packages/",
+        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -161,7 +137,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -173,7 +148,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -184,16 +158,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.7, 3.1.7]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -202,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

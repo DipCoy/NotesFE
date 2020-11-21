@@ -13,6 +13,7 @@ namespace NotesFE.Data.Models.DataBase
         public DefaultBoardOperations()
         {
             database = new LiteDatabase("Boards.db");
+            
         }
         public bool TryGetBoard(int id, out Board board)
         {

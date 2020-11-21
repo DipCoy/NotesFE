@@ -1,6 +1,6 @@
 namespace NotesFE.Data.Models.Domain
 {
-    public class StickerContent : IHaveRecord
+    public class StickerContent
     {
         public string Text { get; private set; }
 
