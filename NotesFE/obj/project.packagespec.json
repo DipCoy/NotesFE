@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+    "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
     "projectName": "NotesFE",
-    "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
-    "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
+    "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
+    "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,8 +15,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
-            "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
+          "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
+            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
+          },
+          "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
+            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
+          },
+          "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
+            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
           }
         }
       }
@@ -29,16 +35,6 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
-      "dependencies": {
-        "LiteDB": {
-          "target": "Package",
-          "version": "[5.0.9, )"
-        },
-        "Pomelo.EntityFrameworkCore.MySql": {
-          "target": "Package",
-          "version": "[5.0.0-alpha.1, )"
-        }
-      },
       "imports": [
         "net461",
         "net462",

@@ -12,12 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="LiteDB" Version="5.0.9" />
-      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.1" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Application\Application.csproj" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,26 +1,75 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "LiteDB/5.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LiteDB/5.0.9": {
+      "sha512": "cWnNWXL+qaP/qrkUCYZHBUJcv+IsfJfofa+Ed4EyT0zs/gkXqfKvjTbS3uSMBfcd9I7Yf+q9YPmCpmVFrVGQtw==",
+      "type": "package",
+      "path": "litedb/5.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.9.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Domain >= 1.0.0",
+      "LiteDB >= 5.0.9"
+    ]
   },
   "packageFolders": {
-    "/home/dipcoy/.nuget/packages/": {}
+    "/home/artem/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
-      "packagesPath": "/home/dipcoy/.nuget/packages/",
-      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/",
+      "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj",
+      "packagesPath": "/home/artem/.nuget/packages/",
+      "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+        "/home/artem/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -30,7 +79,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
+              "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -41,6 +94,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "LiteDB": {
+            "target": "Package",
+            "version": "[5.0.9, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -52,9 +111,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

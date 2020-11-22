@@ -1,80 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {}
+    "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {}
   },
   "projects": {
-    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
+    "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
+        "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Application/obj/",
+        "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
+        "packagesPath": "/home/artem/.nuget/packages/",
+        "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
-              },
-              "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+          "/home/artem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -106,62 +46,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

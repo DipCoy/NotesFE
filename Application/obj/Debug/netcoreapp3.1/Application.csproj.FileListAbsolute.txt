@@ -1,27 +1,9 @@
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/appsettings.Development.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/appsettings.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.deps.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.runtimeconfig.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.runtimeconfig.dev.json
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.dll
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.pdb
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.dll
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.pdb
-/home/dipcoy/RiderProjects/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.MvcApplicationPartsAssemblyInfo.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.RazorTargetAssemblyInfo.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/staticwebassets/Application.StaticWebAssets.Manifest.cache
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/staticwebassets/Application.StaticWebAssets.xml
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
-/home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.genruntimeconfig.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb

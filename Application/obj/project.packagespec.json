@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
+    "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
     "projectName": "Application",
-    "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
-    "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Application/obj/",
+    "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
+    "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -14,14 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-            "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
-          },
-          "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-            "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -43,9 +36,6 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
-        "Microsoft.AspNetCore.App": {
-          "privateAssets": "none"
-        },
         "Microsoft.NETCore.App": {
           "privateAssets": "all"
         }

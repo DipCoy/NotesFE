@@ -1,8 +1,7 @@
-using System;
 using System.Collections.Generic;
+using Domain;
+using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using NotesFE.Data.Models.Domain;
-using NotesFE.Data.Models.DataBase;
 
 namespace NotesFE.Controllers
 {
@@ -18,8 +17,7 @@ namespace NotesFE.Controllers
         [Route("board/{id}")]
         public ViewResult ListBoard(int id)
         {
-            Board board;
-            var result = dataBase.TryGetBoard(id, out board);
+            var result = dataBase.TryGetBoard(id, out var board);
             return View(board);
         }
 
