@@ -1,10 +1,10 @@
-using Domain;
+using Infrastructure.Records;
 
 namespace Infrastructure
 {
     public interface IBoardOperations
     {
-        public bool TryGetBoard(int id, out Board board);
-        public bool TryAddBoard(Board board);
+        public bool TryGetBoardRecord(int id, out BoardRecord boardRecord);
+        public bool TryAddBoardRecord(BoardRecord boardRecord);
     }
 }

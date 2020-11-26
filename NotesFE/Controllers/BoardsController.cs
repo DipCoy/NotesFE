@@ -1,31 +1,33 @@
+using System;
 using System.Collections.Generic;
-using Domain;
-using Infrastructure;
+using Application.Converters;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NotesFE.Controllers
 {
     public class BoardsController : Controller
     {
-        private readonly IBoardOperations dataBase;
+        private readonly IBoardService boardService;
 
-        public BoardsController(IBoardOperations dataBase)
+        public BoardsController(IBoardService boardService)
         {
-            this.dataBase = dataBase;
+            this.boardService = boardService;
         }
-        
+
         [Route("board/{id}")]
         public ViewResult ListBoard(int id)
         {
-            var result = dataBase.TryGetBoard(id, out var board);
-            return View(board);
+            if (boardService.TryGetBoard(id, out var board))
+                return View(board);
+            throw new ArgumentException($"Board with id: {id} is not exist!");
         }
 
         [HttpGet]
         [Route("newboard")]
         public ViewResult CreateBoard()
         {
-            return View();
+            return View(); // TODO ???
         }
         
         [HttpPost]
@@ -36,8 +38,9 @@ namespace NotesFE.Controllers
             var stickers = new List<Sticker> {new Sticker(stickerContent)};
             var boardContent = new BoardContent(stickers);
             var board = new Board(id, boardContent);
-            dataBase.TryAddBoard(board);
-            return Redirect($"board/{id}");
+            if (boardService.TryAddBoard(board))
+                return Redirect($"board/{id}");
+            throw new Exception("failed to create a board");
         }
     }
 }

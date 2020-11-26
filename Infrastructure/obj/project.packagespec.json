@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {

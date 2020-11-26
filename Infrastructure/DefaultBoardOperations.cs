@@ -1,4 +1,5 @@
-using Domain;
+using System;
+using Infrastructure.Records;
 using LiteDB;
 
 namespace Infrastructure
@@ -10,20 +11,39 @@ namespace Infrastructure
         public DefaultBoardOperations()
         {
             database = new LiteDatabase("Boards.db");
-            
-        }
-        public bool TryGetBoard(int id, out Board board)
-        {
-            var collect = database.GetCollection<Board>(collectionName);
-                board = collect.FindOne(b => b.Id == id);
-                return board != null;
         }
 
-        public bool TryAddBoard(Board board)
+        public bool TryGetBoardRecord(int id, out BoardRecord boardRecord)
         {
-            var collect = database.GetCollection<Board>(collectionName);
-                collect.Insert(board);
+            try
+            {
+                var collect = database.GetCollection<BoardRecord>(collectionName);
+                // foreach (var b in collect.FindAll())
+                // {
+                //     Console.WriteLine(b.Id);
+                // }
+                boardRecord = collect.FindOne(b => b.Id == id);
                 return true;
+            }
+            catch
+            {
+                boardRecord = null;
+                return false;
+            }
+        }
+
+        public bool TryAddBoardRecord(BoardRecord boardRecord)
+        {
+            try
+            {
+                var collect = database.GetCollection<BoardRecord>(collectionName);
+                collect.Insert(boardRecord);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

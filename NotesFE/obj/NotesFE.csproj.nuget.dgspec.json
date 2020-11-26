@@ -24,7 +24,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
+                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
+              },
+              "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -124,11 +131,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -187,12 +190,6 @@
             "projectReferences": {
               "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
                 "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
-              },
-              "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
-              },
-              "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
               }
             }
           }

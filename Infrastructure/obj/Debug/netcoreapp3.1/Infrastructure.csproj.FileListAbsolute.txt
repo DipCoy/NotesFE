@@ -1,12 +1,9 @@
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb
-/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Domain.dll
-/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Domain.pdb
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfoInputs.cache
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfo.cs
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache
-/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CopyComplete
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb

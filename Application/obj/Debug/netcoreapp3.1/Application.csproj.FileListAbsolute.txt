@@ -7,3 +7,8 @@
 /home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
 /home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
 /home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete

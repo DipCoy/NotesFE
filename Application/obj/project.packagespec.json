@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
+            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
+          },
+          "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
+            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

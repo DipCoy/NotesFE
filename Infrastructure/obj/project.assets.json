@@ -10,16 +10,6 @@
         "runtime": {
           "lib/netstandard2.0/LiteDB.dll": {}
         }
-      },
-      "Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
-        }
       }
     }
   },
@@ -43,16 +33,10 @@
         "litedb.5.0.9.nupkg.sha512",
         "litedb.nuspec"
       ]
-    },
-    "Domain/1.0.0": {
-      "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Domain >= 1.0.0",
       "LiteDB >= 5.0.9"
     ]
   },
@@ -79,11 +63,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-              "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

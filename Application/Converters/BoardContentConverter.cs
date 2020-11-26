@@ -1,8 +1,8 @@
 using System.Linq;
-using Domain;
+using Domain.Models;
 using Infrastructure.Records;
 
-namespace Infrastructure.Converter
+namespace Application.Converters
 {
     public class BoardContentConverter : IConverter<BoardContentRecord, BoardContent>
     {

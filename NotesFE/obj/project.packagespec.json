@@ -17,12 +17,6 @@
         "projectReferences": {
           "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
             "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
-          },
-          "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
-          },
-          "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
-            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
           }
         }
       }
