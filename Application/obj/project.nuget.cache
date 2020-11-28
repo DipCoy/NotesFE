@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Olae/Vb5KtmrGroUxjG7VisuKr6dKLrvwj79+yQEHsbGJmDnvdoQ1uJVZ0zJij4t/m5prGAR+XWnxJsLV/UDuw==",
+  "dgSpecHash": "xtC0orby/i2MR9rycJvGvKmXaMST0JikyllbeZXup7asK2R+puja+xx6bslhcJALDIS37QYBbMYEcGX7eqBdLQ==",
   "success": true,
-  "projectFilePath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Application\\Application.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\777\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\777\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.7\\microsoft.netcore.app.host.win-x64.3.1.7.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,6 +6,7 @@ using NotesFE.Data.Models.DataBase;
 
 namespace NotesFE.Controllers
 {
+    //Данный класс будет нам возращать html страницу, которая будет отображаться на самом сайте
     public class BoardsController : Controller
     {
         private readonly IBoardOperations dataBase;
