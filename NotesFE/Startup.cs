@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LiteDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -15,10 +14,6 @@ using Pomelo.EntityFrameworkCore.MySql;
 
 namespace NotesFE
 {
-    public class BoardDBService
-    {
-        public ILiteDatabase GetDatabase => new LiteDatabase("BoardsDB.db");
-    }
     public class Startup
     {
         // This method gets called by the runtime. Use this method to add services to the container.

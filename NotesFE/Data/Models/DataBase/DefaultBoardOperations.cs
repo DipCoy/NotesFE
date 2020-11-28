@@ -8,24 +8,24 @@ namespace NotesFE.Data.Models.DataBase
 {
     public class DefaultBoardOperations : IBoardOperations
     {
-        private ILiteDatabase database;
-        private string collectionName => "boards";
-        public DefaultBoardOperations()
-        {
-            database = new LiteDatabase("Boards.db");
-        }
         public bool TryGetBoard(int id, out Board board)
         {
-            var collect = database.GetCollection<Board>(collectionName);
+            using (var db = new LiteDatabase(@"Boards.db"))
+            {
+                var collect = db.GetCollection<Board>("boards");
                 board = collect.FindOne(b => b.Id == id);
                 return board != null;
+            }
         }
 
         public bool TryAddBoard(Board board)
         {
-            var collect = database.GetCollection<Board>(collectionName);
+            using (var db = new LiteDatabase(@"Boards.db"))
+            {
+                var collect = db.GetCollection<Board>("boards");
                 collect.Insert(board);
                 return true;
+            }
         }
     }
 }
