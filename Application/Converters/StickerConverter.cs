@@ -14,7 +14,15 @@ namespace Application.Converters
 
         public Sticker Convert(StickerRecord record)
         {
-            return null; //TODO
+            return new Sticker(stickerContentConverter.Convert(record.Content));
+        }
+
+        public StickerRecord Convert(Sticker source)
+        {
+            return new StickerRecord()
+            {
+                Content = stickerContentConverter.Convert(source.Content)
+            };
         }
     }
 }

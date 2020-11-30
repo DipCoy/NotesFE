@@ -30,9 +30,7 @@ namespace Application
 
         public bool TryAddBoard(Board board)
         {
-            var boardRecord = new BoardRecord {Id = 1}; // TODO board -> BoardRecord
-
-            return dataBase.TryAddBoardRecord(boardRecord);
+            return dataBase.TryAddBoardRecord(boardConverter.Convert(board));
         }
     }
 }

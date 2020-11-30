@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
+    "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
     "projectName": "NotesFE",
-    "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
-    "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/",
+    "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+    "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
-            "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
+          "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
+            "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
           }
         }
       }

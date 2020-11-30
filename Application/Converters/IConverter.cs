@@ -1,7 +1,8 @@
 namespace Application.Converters
 {
-    public interface IConverter<TSource, TResult>
+    public interface IConverter<T1, T2>
     {
-        TResult Convert(TSource source);
+        T2 Convert(T1 source);
+        T1 Convert(T2 source);
     }
 }

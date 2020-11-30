@@ -6,7 +6,7 @@ namespace Infrastructure
 {
     public class DefaultBoardOperations : IBoardOperations
     {
-        private ILiteDatabase database;
+        private readonly ILiteDatabase database;
         private string collectionName => "boards";
         public DefaultBoardOperations()
         {
@@ -15,29 +15,19 @@ namespace Infrastructure
 
         public bool TryGetBoardRecord(int id, out BoardRecord boardRecord)
         {
-            try
-            {
-                var collect = database.GetCollection<BoardRecord>(collectionName);
-                // foreach (var b in collect.FindAll())
-                // {
-                //     Console.WriteLine(b.Id);
-                // }
-                boardRecord = collect.FindOne(b => b.Id == id);
-                return true;
-            }
-            catch
-            {
-                boardRecord = null;
-                return false;
-            }
+            boardRecord = database
+                .GetCollection<BoardRecord>(collectionName)
+                .FindOne(b => b.Id == id);
+            return !(boardRecord is null);
         }
 
         public bool TryAddBoardRecord(BoardRecord boardRecord)
         {
             try
             {
-                var collect = database.GetCollection<BoardRecord>(collectionName);
-                collect.Insert(boardRecord);
+                database
+                    .GetCollection<BoardRecord>(collectionName)
+                    .Insert(boardRecord);
                 return true;
             }
             catch

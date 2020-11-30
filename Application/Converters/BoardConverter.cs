@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using Domain.Models;
 using Infrastructure.Records;
 
@@ -15,6 +17,15 @@ namespace Application.Converters
         public Board Convert(BoardRecord record)
         {
             return new Board(record.Id, boardContentConverter.Convert(record.Content));
+        }
+
+        public BoardRecord Convert(Board source)
+        {
+            return new BoardRecord()
+            {
+                Id = source.Id,
+                Content = boardContentConverter.Convert(source.Content)
+            };
         }
     }
 }

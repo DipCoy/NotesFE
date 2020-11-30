@@ -17,5 +17,13 @@ namespace Application.Converters
         {
             return new BoardContent(record.Stickers.Select(x => stickerConverter.Convert(x)));
         }
+
+        public BoardContentRecord Convert(BoardContent source)
+        {
+            return new BoardContentRecord()
+            {
+                Stickers = source.Stickers.Select(x => stickerConverter.Convert(x))
+            };
+        }
     }
 }

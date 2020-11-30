@@ -16,18 +16,18 @@ namespace NotesFE.Controllers
         }
 
         [Route("board/{id}")]
-        public ViewResult ListBoard(int id)
+        public IActionResult ListBoard(int id)
         {
             if (boardService.TryGetBoard(id, out var board))
                 return View(board);
-            throw new ArgumentException($"Board with id: {id} is not exist!");
+            return NotFound(); 
         }
 
         [HttpGet]
         [Route("newboard")]
-        public ViewResult CreateBoard()
+        public IActionResult CreateBoard()
         {
-            return View(); // TODO ???
+            return View();
         }
         
         [HttpPost]
@@ -40,7 +40,9 @@ namespace NotesFE.Controllers
             var board = new Board(id, boardContent);
             if (boardService.TryAddBoard(board))
                 return Redirect($"board/{id}");
-            throw new Exception("failed to create a board");
+            return Conflict();
         }
+
+     
     }
 }

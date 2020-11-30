@@ -38,30 +38,8 @@
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.genruntimeconfig.cache
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Domain
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Infrastructure
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Application
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/NotesFE.Views.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/NotesFE.Views.pdb
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/MySqlConnector.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Application.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Domain.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Infrastructure.dll
@@ -118,3 +96,4 @@
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.genruntimeconfig.cache
+/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Errors/NotFound.cshtml.g.cs

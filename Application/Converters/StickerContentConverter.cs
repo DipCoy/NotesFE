@@ -7,7 +7,15 @@ namespace Application.Converters
     {
         public StickerContent Convert(StickerContentRecord source)
         {
-            return null; //TODO
+            return new StickerContent(source.Text);
+        }
+
+        public StickerContentRecord Convert(StickerContent source)
+        {
+            return new StickerContentRecord()
+            {
+                Text = source.Text
+            };
         }
     }
 }
