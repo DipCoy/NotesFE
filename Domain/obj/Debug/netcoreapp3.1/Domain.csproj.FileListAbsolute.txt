@@ -38,3 +38,7 @@ D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\staticwebas
 D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CopyComplete

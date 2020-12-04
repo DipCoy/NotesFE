@@ -52,3 +52,6 @@ D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\static
 D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.dll
 D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.pdb
 D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
+D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

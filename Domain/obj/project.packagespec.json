@@ -26,6 +26,20 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.2.5, )"
+        },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "bootstrap": {
+          "target": "Package",
+          "version": "[5.0.0-alpha3, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

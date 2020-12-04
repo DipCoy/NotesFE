@@ -2,7 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\dlach\\.dotnet\\store\\|arch|\\|tfm|",
-      "/home/dipcoy/.nuget/packages/"
+      "C:\\Users\\dlach\\.nuget\\packages"
     ]
   }
 }

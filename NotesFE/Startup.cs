@@ -41,7 +41,6 @@ namespace NotesFE
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
