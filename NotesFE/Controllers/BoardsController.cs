@@ -22,16 +22,24 @@ namespace NotesFE.Controllers
                 return View(board);
             return NotFound();
         }
+        
 
         [HttpGet]
-        [Route("newboard")]
+        [Route("/new")]
         public IActionResult CreateBoard()
         {
             return View();
         }
         
+        [HttpGet]
+        [Route("/")]
+        public IActionResult ShowMain()
+        {
+            return View();
+        }
+        
         [HttpPost]
-        [Route("newboard")]
+        [Route("/new")]
         public IActionResult CreateBoard(int id, string stickerText)
         {
             var stickerContent = new StickerContent(stickerText);
@@ -39,10 +47,8 @@ namespace NotesFE.Controllers
             var boardContent = new BoardContent(stickers);
             var board = new Board(id, boardContent);
             if (boardService.TryAddBoard(board))
-                return Redirect($"board/{id}");
+                return Redirect($"board/{id}");// Выводим 1, вместо {id} чисто для теста
             return Conflict();
         }
-
-     
     }
 }

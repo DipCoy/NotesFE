@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4m3xRYidW/Fj6d01He7H0Idt3mD1qE2jRBQLxHzRzgU7pjMqHFfkgHFw6dDxKRAmcsYe9PJxUv48xXlJvzKlrg==",
+  "dgSpecHash": "HmV7aSClDWkrP1gSHUS4Ks6xpBcyhhotmGz+rsXkVYdAsrVlOjJl72FkQTKYTVFrf5XlZRLzDHwE/Gdv3zrpgQ==",
   "success": true,
-  "projectFilePath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\777\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
