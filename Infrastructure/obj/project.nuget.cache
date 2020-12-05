@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EPqgPTzUabMyw9eKoUA47RgpoV353p6nLDwz7rc6YWubbUeuFNPKEeQLXqR0sDo69l+RN2gmwqbl+hudR4mgSg==",
+  "dgSpecHash": "32D3wiUD68Hrx6Zj4g0ez17wwSoFEe7vUW+voXr+/5ZTLZzK8nUiRVYWIaCo4Xy+z3Mv/sS66ACcoc0hKeUK8w==",
   "success": true,
-  "projectFilePath": "D:\\C# Proj\\NOTES_FE\\NotesFE\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\777\\.nuget\\packages\\litedb\\5.0.9\\litedb.5.0.9.nupkg.sha512",
-    "C:\\Users\\777\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "/home/artem/.nuget/packages/litedb/5.0.9/litedb.5.0.9.nupkg.sha512"
   ],
   "logs": []
 }

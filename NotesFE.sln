@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesFETelegramBot", "NotesFETelegramBot\NotesFETelegramBot.csproj", "{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
