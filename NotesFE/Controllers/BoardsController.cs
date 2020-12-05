@@ -20,7 +20,7 @@ namespace NotesFE.Controllers
         {
             if (boardService.TryGetBoard(id, out var board))
                 return View(board);
-            return NotFound(); 
+            return NotFound();
         }
 
         [HttpGet]
