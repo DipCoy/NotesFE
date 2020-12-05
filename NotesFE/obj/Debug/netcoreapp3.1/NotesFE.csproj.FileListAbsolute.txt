@@ -137,3 +137,4 @@ D:\C# Proj\NOTES_FE\NotesFE\NotesFE\obj\Debug\netcoreapp3.1\NotesFE.dll
 D:\C# Proj\NOTES_FE\NotesFE\NotesFE\obj\Debug\netcoreapp3.1\NotesFE.pdb
 D:\C# Proj\NOTES_FE\NotesFE\NotesFE\obj\Debug\netcoreapp3.1\NotesFE.genruntimeconfig.cache
 D:\C# Proj\NOTES_FE\NotesFE\NotesFE\obj\Debug\netcoreapp3.1\Razor\Views\Boards\ShowMain.cshtml.g.cs
+D:\C# Proj\NOTES_FE\NotesFE\NotesFE\obj\Debug\netcoreapp3.1\Razor\Views\Boards\_layout.cshtml.g.cs
