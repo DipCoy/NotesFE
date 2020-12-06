@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
@@ -7,7 +8,7 @@ namespace NotesFETelegramBot.Models.Commands
     {
         public abstract string Name { get; }
 
-        public abstract void Execute(Message message, TelegramBotClient client);
+        public abstract Task Execute(Message message, TelegramBotClient client);
 
         public bool Contains(string command)
         {
