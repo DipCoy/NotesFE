@@ -1,15 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
+<<<<<<< HEAD
     "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
     "projectName": "Domain",
     "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
     "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
+=======
+    "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+    "projectName": "Domain",
+    "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+    "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\obj\\",
+>>>>>>> frontend
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -40,7 +48,11 @@
           "privateAssets": "all"
         }
       },
+<<<<<<< HEAD
       "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+=======
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> frontend
     }
   }
 }

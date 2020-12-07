@@ -47,7 +47,7 @@ namespace NotesFE.Controllers
             var boardContent = new BoardContent(stickers);
             var board = new Board(boardContent);
             if (boardService.TryAddBoard(board))
-                return Redirect($"board/{board.Link}");// Выводим 1, вместо {id} чисто для теста
+                return Redirect($"board/{board.Link}");
             return Conflict();
         }
     }
