@@ -15,7 +15,6 @@ function add_btn(){
         let new_input = document.createElement("input");
         new_input.type = "text";
         new_input.className = "form-control";
-        new_input.placeholder = "Инструмент";
         div.append(new_input);
         let div_2 = document.createElement("div");
         div_2.className = "input-group-prepend";

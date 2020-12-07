@@ -16,21 +16,21 @@
 /home/dipcoy/RiderProjects/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
 /home/dipcoy/RiderProjects/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /home/dipcoy/RiderProjects/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-D:\C# Proj\NOTES_FE\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-D:\C# Proj\NOTES_FE\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+D:/C# Proj/NOTES_FE/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+D:/C# Proj/NOTES_FE/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+D:/C# Proj/NOTES_FE/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+D:/Документы/!GitHub/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+D:/Документы/!GitHub/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+D:/Документы/!GitHub/NotesFE/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+D:/Документы/!GitHub/NotesFE/Domain/obj/Debug/netcoreapp3.1/Domain.pdb

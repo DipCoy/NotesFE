@@ -4,20 +4,21 @@
 
 <div>
     <label>StickerText:</label><br />
-     
-     <div class="w-25 p-3" id="textBody">
+    
+    <form method="post">
+    <div class="w-25 p-3" id="textBody">
          <div class="form-group">
              <textarea class="form-control" name="stickerText[]" rows="3"></textarea>
          </div>
      </div>
      
     <div>
-        <input id="add_input" class="btn btn-primary btn-lg active" type="submit" value="add">
+        <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_btn();">Add</button>
     </div>
     
-     
-     <div class="mp-2">
-         <input type="submit" class="btn btn-success" value="Отправить"/>
-     </div>
-     <script src="script.js"></script>
+    <div class="mp-2">
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+    </form>
+     <script src="js/script.js"></script>
 </div>

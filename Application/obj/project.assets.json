@@ -75,16 +75,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "/home/dipcoy/.nuget/packages/": {}
-=======
-    "C:\\Users\\dlach\\.nuget\\packages\\": {}
->>>>>>> frontend
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
       "projectName": "Application",
       "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
@@ -93,17 +88,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-=======
-      "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj",
-      "projectName": "Application",
-      "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
-      "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> frontend
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -115,19 +99,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
             "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
               "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
             },
             "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
               "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
-=======
-            "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj"
-            },
-            "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj"
->>>>>>> frontend
             }
           }
         }
@@ -155,11 +131,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> frontend
       }
     }
   }

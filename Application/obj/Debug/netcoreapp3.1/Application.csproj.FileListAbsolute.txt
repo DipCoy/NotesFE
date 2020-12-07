@@ -26,31 +26,31 @@
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.dll
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Domain.dll
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Infrastructure.dll
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Application\bin\Debug\netcoreapp3.1\Infrastructure.pdb
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.dll
-D:\C# Proj\NOTES_FE\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.pdb
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.deps.json
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.dll
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Application.pdb
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Infrastructure.dll
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Документы\!GitHub\NotesFE\Application\bin\Debug\netcoreapp3.1\Infrastructure.pdb
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.dll
-D:\Документы\!GitHub\NotesFE\Application\obj\Debug\netcoreapp3.1\Application.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.dll
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.dll
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
+D:/C# Proj/NOTES_FE/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.dll
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.pdb
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.dll
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/Документы/!GitHub/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
+D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
