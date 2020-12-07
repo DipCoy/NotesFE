@@ -15,20 +15,12 @@
 </style>
 
 <div class="fixed-top">
-    <h2>Доска ID: @Model.Id</h2>
+    <h2>The Board</h2>
     <div class="container">
-            @{
-                var content = Model.Content;
-                var stickers = content.Stickers;
-                var first = stickers.First();
-                var stickerContent = first.Content;
-                var text = stickerContent.Text;
-                <span class="border border-danger">
+        <span class="border border-danger">
                     Content.Text: @Model.Content.Stickers.First().Content.Text
-                </span>
-                
-            }
-        </div>
+                    </span>
+    </div>
     
 </div>
 
