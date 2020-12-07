@@ -7,7 +7,7 @@ namespace NotesFETelegramBot.Models
 {
     public static class AppSettings
     {
-        public static string Url { get; set; } = "https://b0f0b763a56f.ngrok.io/{0}";
+        public static string Url { get; set; } = "https://notesfe.azurewebsites.net:443/{0}";
 
         public static string Name { get; set; } = "notesfe_bot";
 

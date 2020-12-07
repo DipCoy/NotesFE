@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using System.Linq.Expressions;
 using Infrastructure.Records;
 using LiteDB;
 
@@ -13,12 +15,20 @@ namespace Infrastructure
             database = new LiteDatabase("Boards.db");
         }
 
-        public bool TryGetBoardRecord(int id, out BoardRecord boardRecord)
+        public bool TryGetBoardRecord(string link, out BoardRecord boardRecord)
         {
-            boardRecord = database
-                .GetCollection<BoardRecord>(collectionName)
-                .FindOne(b => b.Id == id);
+            var collection = database.GetCollection<BoardRecord>(collectionName);
+            collection.EnsureIndex(s => s.Link);
+            //var boards = collection.FindAll();
+
+            //var ls = boards.ToList();
+            //boardRecord = collection.Find(Query.)
+            boardRecord = collection.FindOne(x => x.Link == link);
             return !(boardRecord is null);
+            //boardRecord = database
+            //    .GetCollection<BoardRecord>(collectionName)
+            //    .FindOne(board => predicate(board));
+            //return !(boardRecord is null);
         }
 
         public bool TryAddBoardRecord(BoardRecord boardRecord)

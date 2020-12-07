@@ -12,6 +12,7 @@ namespace NotesFETelegramBot.Models.Commands
 
         public bool Contains(string command)
         {
+            return true;
             return command.Contains(this.Name) && command.Contains(AppSettings.Name);
         }
     }

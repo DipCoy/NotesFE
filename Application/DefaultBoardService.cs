@@ -16,9 +16,9 @@ namespace Application
             this.boardConverter = boardConverter;
         }
 
-        public bool TryGetBoard(int id, out Board board)
+        public bool TryGetBoard(string link, out Board board)
         {
-            if (dataBase.TryGetBoardRecord(id, out var boardRecord))
+            if (dataBase.TryGetBoardRecord(link, out var boardRecord))
             {
                 board = boardConverter.Convert(boardRecord);
                 return true;
@@ -30,6 +30,7 @@ namespace Application
 
         public bool TryAddBoard(Board board)
         {
+            board.GenerateNewLink();
             return dataBase.TryAddBoardRecord(boardConverter.Convert(board));
         }
     }
