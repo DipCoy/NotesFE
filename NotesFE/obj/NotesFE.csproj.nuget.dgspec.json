@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj": {}
+    "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj": {}
   },
   "projects": {
-    "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
+    "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
+        "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj",
-        "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/obj/",
+        "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
+        "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/artem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj"
+              "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj"
               },
-              "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj"
+              "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -57,26 +59,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj": {
+    "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
+        "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
-        "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/obj/",
+        "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
+        "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/artem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,26 +111,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj": {
+    "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Infrastructure/obj/",
+        "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
+        "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/artem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -163,33 +169,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj": {
+    "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
+        "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
         "projectName": "NotesFE",
-        "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
-        "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/",
+        "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
+        "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
+        "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/artem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
-                "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
+              "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj": {
+                "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj"
               }
             }
           }
@@ -220,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

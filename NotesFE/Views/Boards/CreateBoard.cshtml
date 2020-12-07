@@ -4,19 +4,27 @@
 
 
 <div>
-     <form method="post">
-         <label>Id:</label><br />
-         <div class="w-25 p-3">
-             <input  class="form-control" type="number" name="id" /><br /><br />
+     <label>Id:</label><br />
+     
+     <div class="w-25 p-3" id="id">
+         <input  class="form-control" type="number" name="id" /><br /><br />
+     </div>
+     
+     <label>StickerText:</label><br />
+     
+     <div class="w-25 p-3" id="textBody">
+         <div class="form-group">
+             <textarea class="form-control" name="stickerText[]" rows="3"></textarea>
          </div>
-         <label>StickerText:</label><br />
-         <div class="w-25 p-3">
-             
-             <div class="form-group">
-                 <textarea class="form-control" name="stickerText" rows="3"></textarea>
-             </div>
-         </div>
-         
-         <input type="submit" value="Отправить" />
-     </form> 
+     </div>
+     
+    <div>
+        <input id="add_input" class="btn btn-primary btn-lg active" type="submit" value="add">
+    </div>
+    
+     
+     <div class="mp-2">
+         <input type="submit" class="btn btn-success" value="Отправить"/>
+     </div>
+     <script src="script.js"></script>
 </div>

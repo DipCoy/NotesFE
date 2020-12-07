@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pzDac0tdK0/fcLt/ZmfhfSqOn5AaFw9Peu0mStHcPDnDWePuw4NC8okJ3D+Q+rtQ0ZZ9VbxgkWIn9jgqw3dvHw==",
+  "dgSpecHash": "/XAyfr2yeC3FEemSmJfG0DtuzNxM/29tFhT/qhkc5FxZaUiRuZn/3+zk/BHVErythcwMO9DZRvkERMi1K0KQ4g==",
   "success": true,
-  "projectFilePath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
+  "projectFilePath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
   "expectedPackageFiles": [
-    "/home/artem/.nuget/packages/litedb/5.0.9/litedb.5.0.9.nupkg.sha512"
+    "C:\\Users\\dlach\\.nuget\\packages\\litedb\\5.0.9\\litedb.5.0.9.nupkg.sha512"
   ],
   "logs": []
 }

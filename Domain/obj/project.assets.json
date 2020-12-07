@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/artem/.nuget/packages/": {}
+    "C:\\Users\\dlach\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
+      "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
-      "packagesPath": "/home/artem/.nuget/packages/",
-      "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/obj/",
+      "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
+      "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/artem/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

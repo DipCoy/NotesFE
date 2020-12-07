@@ -25,3 +25,12 @@ D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.c
 D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\C# Proj\NOTES_FE\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Документы\!GitHub\NotesFE\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Документы\!GitHub\NotesFE\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
