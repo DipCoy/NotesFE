@@ -1,18 +1,10 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "USWemczc9bBGtxIPDZ4hy3zHs08slC/GO8QPjJbs7UbOskEBpQm5VuYRgl1K1Rt5EvBzB58hXM9Jd38PsLQkVA==",
-  "success": true,
-  "projectFilePath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
-  "expectedPackageFiles": [
-    "/home/dipcoy/.nuget/packages/litedb/5.0.9/litedb.5.0.9.nupkg.sha512"
-=======
   "dgSpecHash": "/XAyfr2yeC3FEemSmJfG0DtuzNxM/29tFhT/qhkc5FxZaUiRuZn/3+zk/BHVErythcwMO9DZRvkERMi1K0KQ4g==",
   "success": true,
   "projectFilePath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dlach\\.nuget\\packages\\litedb\\5.0.9\\litedb.5.0.9.nupkg.sha512"
->>>>>>> frontend
   ],
   "logs": []
 }

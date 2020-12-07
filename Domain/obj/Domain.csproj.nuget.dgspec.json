@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {}
-  },
-  "projects": {
-    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-=======
     "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {}
   },
   "projects": {
@@ -32,7 +16,6 @@
         "configFilePaths": [
           "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> frontend
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -69,11 +52,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> frontend
         }
       }
     }

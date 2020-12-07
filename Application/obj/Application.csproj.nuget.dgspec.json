@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {}
-  },
-  "projects": {
-    "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
-        "projectName": "Application",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Application/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-=======
     "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj": {}
   },
   "projects": {
@@ -32,7 +16,6 @@
         "configFilePaths": [
           "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> frontend
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -44,19 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-              "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj"
-              },
-              "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj"
-=======
               "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj"
               },
               "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Infrastructure\\Infrastructure.csproj"
->>>>>>> frontend
               }
             }
           }
@@ -84,23 +59,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
@@ -117,7 +75,6 @@
         "configFilePaths": [
           "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> frontend
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -154,23 +111,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/dipcoy/.nuget/packages/",
-        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
@@ -187,7 +127,6 @@
         "configFilePaths": [
           "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> frontend
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -230,11 +169,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> frontend
         }
       }
     }

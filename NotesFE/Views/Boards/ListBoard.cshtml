@@ -17,10 +17,14 @@
 <div class="fixed-top">
     <h2>The Board</h2>
     <div class="container">
-        <span class="border border-danger">
-                    Content.Text: @Model.Content.Stickers.First().Content.Text
-                    </span>
+        @{
+            foreach (var sticker in Model.Content.Stickers)
+            {
+                <span class="border border-danger">
+                    Sticker: @sticker.Content.Text
+                </span>   
+            }
+        }
     </div>
     
 </div>
-

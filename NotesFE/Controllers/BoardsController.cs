@@ -40,10 +40,15 @@ namespace NotesFE.Controllers
         
         [HttpPost]
         [Route("/new")]
-        public IActionResult CreateBoard(string stickerText)
+        public IActionResult CreateBoard(string[] stickersText)
         {
-            var stickerContent = new StickerContent(stickerText);
-            var stickers = new List<Sticker> {new Sticker(stickerContent)};
+            var stickers = new List<Sticker>();
+            foreach (var text in stickersText)
+            {
+                var stickerContent = new StickerContent(text);
+                var sticker = new Sticker(stickerContent);
+                stickers.Add(sticker);
+            }
             var boardContent = new BoardContent(stickers);
             var board = new Board(boardContent);
             if (boardService.TryAddBoard(board))
