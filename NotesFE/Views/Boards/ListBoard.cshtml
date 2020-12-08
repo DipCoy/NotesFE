@@ -20,9 +20,12 @@
         @{
             foreach (var sticker in Model.Content.Stickers)
             {
-                <span class="border border-danger">
-                    Sticker: @sticker.Content.Text
-                </span>   
+                <div class="mx-md-n5">
+                    <span class="border border-danger">
+                        @sticker.Content.Text
+                    </span>
+                </div>
+                <br>
             }
         }
     </div>

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {}
+    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {}
   },
   "projects": {
-    "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj": {
+    "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\dlach\\.nuget\\packages\\",
-        "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\obj\\",
+        "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
+        "packagesPath": "/home/dipcoy/.nuget/packages/",
+        "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dlach\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/dipcoy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

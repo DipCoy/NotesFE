@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesFETelegramBot", "NotesFETelegramBot\NotesFETelegramBot.csproj", "{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Examples.WebHook", "Telegram.Bot.Examples.WebHook\Telegram.Bot.Examples.WebHook.csproj", "{1085E79B-CF8A-4EDF-B855-4C610B600203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

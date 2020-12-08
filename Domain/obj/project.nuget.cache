@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EHBTHpJUOI7hoGVHnc1cKsPPCRCBSFGlBrMBE6NAXdFA9FEpwt+FK7QRvtpVfQ6xUZMD+us02dWGAQYU4DIbw==",
+  "dgSpecHash": "4m3xRYidW/Fj6d01He7H0Idt3mD1qE2jRBQLxHzRzgU7pjMqHFfkgHFw6dDxKRAmcsYe9PJxUv48xXlJvzKlrg==",
   "success": true,
-  "projectFilePath": "D:\\Документы\\!GitHub\\NotesFE\\Domain\\Domain.csproj",
+  "projectFilePath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
