@@ -9,11 +9,13 @@ namespace Application
     {
         private readonly IBoardOperations dataBase;
         private readonly IConverter<BoardRecord, Board> boardConverter;
+        private readonly ILinkGenerator linkGenerator;
 
-        public DefaultBoardService(IBoardOperations dataBase, IConverter<BoardRecord, Board> boardConverter)
+        public DefaultBoardService(IBoardOperations dataBase, IConverter<BoardRecord, Board> boardConverter, ILinkGenerator linkGenerator)
         {
             this.dataBase = dataBase;
             this.boardConverter = boardConverter;
+            this.linkGenerator = linkGenerator;
         }
 
         public bool TryGetBoard(string link, out Board board)
@@ -28,10 +30,12 @@ namespace Application
             return false;
         }
 
-        public bool TryAddBoard(Board board)
+        public bool TryAddBoard(Board board, out string link)
         {
-            board.GenerateNewLink();
-            return dataBase.TryAddBoardRecord(boardConverter.Convert(board));
+            var boardRecord = boardConverter.Convert(board);
+            link = linkGenerator.NewLink();
+            boardRecord.Link = link;
+            return dataBase.TryAddBoardRecord(boardRecord);
         }
     }
 }

@@ -3,6 +3,7 @@ using Application.Converters;
 using Domain.Models;
 using Infrastructure;
 using Infrastructure.Records;
+using LiteDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +22,9 @@ namespace NotesFE
             services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();
             services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();
             
+            services.AddSingleton(typeof(ILiteDatabase), new LiteDatabase("Boards.db"));
+
+            services.AddSingleton<ILinkGenerator, MD5LinkGenerator>();
             services.AddSingleton<IBoardOperations, DefaultBoardOperations>();
             services.AddSingleton<IBoardService, DefaultBoardService>();
             services.AddMvc(options => options.EnableEndpointRouting = false);

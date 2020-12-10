@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Controllers" t="Include">
+        <e p="BoardsController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="Converter" t="Include">
+          <e p="BoardContentConverter.cs" t="Include" />
+          <e p="BoardConverter.cs" t="Include" />
+          <e p="IConverter.cs" t="Include" />
+          <e p="StickerConverter.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="DataBase" t="Include">
+            <e p="DefaultBoardOperations.cs" t="Include" />
+            <e p="IBoardOperations.cs" t="Include" />
+            <e p="Records" t="Include">
+              <e p="BoardContentRecord.cs" t="Include" />
+              <e p="BoardRecord.cs" t="Include" />
+              <e p="StickerContentRecord.cs" t="Include" />
+              <e p="StickerRecord.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Domain" t="Include">
+            <e p="Board.cs" t="Include" />
+            <e p="BoardContent.cs" t="Include" />
+            <e p="Sticker.cs" t="Include" />
+            <e p="StickerContent.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="NotesFE.csproj" t="IncludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="Views" t="Include">
+        <e p="Boards" t="Include">
+          <e p="CreateBoard.cshtml" t="Include" />
+          <e p="ListBoard.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="NotesFE.AssemblyInfo.cs" t="Include" />
+            <e p="NotesFE.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="wwwroot" t="Include">
+        <e p="css" t="Include" />
+        <e p="images" t="Include" />
+        <e p="js" t="Include" />
+        <e p="sass" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

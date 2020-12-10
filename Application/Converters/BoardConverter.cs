@@ -24,7 +24,6 @@ namespace Application.Converters
             return new BoardRecord()
             {
                 Id = source.Id,
-                Link = source.Link,
                 Content = boardContentConverter.Convert(source.Content)
             };
         }

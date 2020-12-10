@@ -10,15 +10,15 @@ namespace Infrastructure
     {
         private readonly ILiteDatabase database;
         private string collectionName => "boards";
-        public DefaultBoardOperations()
+        public DefaultBoardOperations(ILiteDatabase database)
         {
-            database = new LiteDatabase("Boards.db");
+            this.database = database;
         }
 
         public bool TryGetBoardRecord(string link, out BoardRecord boardRecord)
         {
             var collection = database.GetCollection<BoardRecord>(collectionName);
-            collection.EnsureIndex(s => s.Link);
+            // collection.EnsureIndex(s => s.Link);
             //var boards = collection.FindAll();
 
             //var ls = boards.ToList();
