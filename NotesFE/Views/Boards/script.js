@@ -11,6 +11,7 @@ function add_btn(){
     let c =  btn.parentElement.childNodes.length;
     btn.onclick = function () {
         let div = document.createElement("div");
+<<<<<<< Updated upstream:NotesFE/Views/Boards/script.js
         div.className = "input-group input_instrument";
         let new_input = document.createElement("input");
         new_input.type = "text";
@@ -19,6 +20,21 @@ function add_btn(){
         div.append(new_input);
         let div_2 = document.createElement("div");
         div_2.className = "input-group-prepend";
+=======
+        div.className = "w-25 p-3";
+        div.id = "#draggable";
+        let div2 = document.createElement("div");
+        div2.className = "form-group";
+
+        let textarea = document.createElement("textarea");
+        textarea.className = "form-control";
+        textarea.rows = 3;
+        textarea.name = "stickersText";
+
+        div2.append(textarea);
+        div.append(div2);
+
+>>>>>>> Stashed changes:NotesFE/wwwroot/js/script.js
         let b = document.createElement("button");
         b.className = "btn btn-outline-secondary btn-danger";
         b.type = "button";

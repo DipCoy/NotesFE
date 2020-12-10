@@ -4,19 +4,14 @@
     Layout = "_layout";
 }
 
-<style type="text/css">
-       .block1 { 
-        width: 600px; 
-        height: 500px;
-        
-        border: solid 1px black; 
-        float: left;
-       }
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
 
 <div class="fixed-top">
     <h2>Доска ID: @Model.Id</h2>
     <div class="container">
+<<<<<<< Updated upstream
             @{
                 var content = Model.Content;
                 var stickers = content.Stickers;
@@ -27,6 +22,22 @@
                     Content.Text: @Model.Content.Stickers.First().Content.Text
                 </span>
                 
+=======
+        @{
+            foreach (var sticker in Model.Content.Stickers)
+            {
+                <div class="align-baseline">
+                    <div class="col-4 themed-grid-col">
+                        <div class="p-3 border bg-light">
+                            @sticker.Content.Text
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <br>
+>>>>>>> Stashed changes
             }
         </div>
     
