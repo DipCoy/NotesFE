@@ -82,3 +82,5 @@ D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.ge
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.genruntimeconfig.cache
+/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs

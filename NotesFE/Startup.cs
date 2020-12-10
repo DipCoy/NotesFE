@@ -3,8 +3,10 @@ using Application.Converters;
 using Domain.Models;
 using Infrastructure;
 using Infrastructure.Records;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -20,9 +22,19 @@ namespace NotesFE
             services.AddSingleton<IConverter<BoardContentRecord, BoardContent>, BoardContentConverter>();
             services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();
             services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();
+            services.AddSingleton<IConverter<UserRecord, User>, UserConverter>();
             
             services.AddSingleton<IBoardOperations, DefaultBoardOperations>();
             services.AddSingleton<IBoardService, DefaultBoardService>();
+
+            services.AddSingleton<IUserOperations, DefaultUserOperations>();
+            services.AddSingleton<IUserService, DefaultUserService>();
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = new PathString("/login");
+                });
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
@@ -36,6 +48,9 @@ namespace NotesFE
 
             app.UseStatusCodePages();
             app.UseStaticFiles();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseMvcWithDefaultRoute();
         }
     }
