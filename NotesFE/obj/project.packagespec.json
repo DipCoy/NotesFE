@@ -1,22 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+    "projectUniqueName": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
     "projectName": "NotesFE",
-    "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
-    "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
+    "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\NotesFE.csproj",
+    "outputPath": "D:\\Документы\\!GitHub\\NotesFE\\NotesFE\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
-            "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
+          "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj": {
+            "projectPath": "D:\\Документы\\!GitHub\\NotesFE\\Application\\Application.csproj"
           }
         }
       }
@@ -47,7 +48,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
     }
   }
 }
