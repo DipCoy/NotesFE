@@ -8,9 +8,9 @@ namespace Infrastructure
         private readonly ILiteDatabase database;
         private string collectionName => "users";
         
-        public DefaultUserOperations()
+        public DefaultUserOperations(ILiteDatabase database)
         {
-            database = new LiteDatabase("Boards.db");
+            this.database = database;
         }
         
         public bool TryGetUserRecord(string login, string password, out UserRecord userRecord)

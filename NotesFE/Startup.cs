@@ -4,6 +4,7 @@ using Domain.Models;
 using Infrastructure;
 using Infrastructure.Records;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using LiteDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,9 @@ namespace NotesFE
             services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();
             services.AddSingleton<IConverter<UserRecord, User>, UserConverter>();
             
+            services.AddSingleton(typeof(ILiteDatabase), new LiteDatabase("Boards.db"));
+
+            services.AddSingleton<ILinkGenerator, MD5LinkGenerator>();
             services.AddSingleton<IBoardOperations, DefaultBoardOperations>();
             services.AddSingleton<IBoardService, DefaultBoardService>();
 
