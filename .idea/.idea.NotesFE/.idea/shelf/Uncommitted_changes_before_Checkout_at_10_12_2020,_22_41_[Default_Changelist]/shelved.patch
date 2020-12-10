@@ -1,0 +1,105 @@
+Index: NotesFE/Controllers/BoardsController.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\nusing System.Collections.Generic;\nusing Application.Converters;\nusing Domain.Models;\nusing Microsoft.AspNetCore.Mvc;\n\nnamespace NotesFE.Controllers\n{\n    public class BoardsController : Controller\n    {\n        private readonly IBoardService boardService;\n\n        public BoardsController(IBoardService boardService)\n        {\n            this.boardService = boardService;\n        }\n\n        [Route(\"board/{link}\")]\n        public IActionResult ListBoard(string link)\n        {\n            if (boardService.TryGetBoard(link, out var board))\n                return View(board);\n            return NotFound();\n        }\n        \n\n        [HttpGet]\n        [Route(\"/new\")]\n        public IActionResult CreateBoard()\n        {\n            return View();\n        }\n        \n        [HttpGet]\n        [Route(\"/\")]\n        public IActionResult ShowMain()\n        {\n            return View();\n        }\n        \n        [HttpPost]\n        [Route(\"/new\")]\n        public IActionResult CreateBoard(string[] stickersText)\n        {\n            var stickers = new List<Sticker>();\n            foreach (var text in stickersText)\n            {\n                var stickerContent = new StickerContent(text);\n                var sticker = new Sticker(stickerContent);\n                stickers.Add(sticker);\n            }\n            var boardContent = new BoardContent(stickers);\n            var board = new Board(boardContent);\n            if (boardService.TryAddBoard(board))\n                return Redirect($\"board/{board.Link}\");\n            return Conflict();\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NotesFE/Controllers/BoardsController.cs	(revision 850638cd53bc8bbe87ed623c1a1e785839bb4a92)
++++ NotesFE/Controllers/BoardsController.cs	(date 1607443753840)
+@@ -18,6 +18,7 @@
+         [Route("board/{link}")]
+         public IActionResult ListBoard(string link)
+         {
++            User.Identity.
+             if (boardService.TryGetBoard(link, out var board))
+                 return View(board);
+             return NotFound();
+Index: Domain/Models/Board.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\nusing System.Linq;\nusing System.Security.Cryptography;\n\nnamespace Domain.Models\n{\n    public class Board//entity\n    {\n        private static RNGCryptoServiceProvider rngCsp = new RNGCryptoServiceProvider();\n        public Guid Id { get; private set;}\n        public string Link { get; private set; }\n        public BoardContent Content { get; private set; }\n        \n        public Board(BoardContent content)\n        {\n            Console.WriteLine(Link);\n            Content = content;\n        }\n\n        public void GenerateNewLink()\n        {\n            var bytes = new byte[12];\n            rngCsp.GetBytes(bytes);\n\n            var hashEncoded = MD5.Create().ComputeHash(bytes);\n            foreach (var b in hashEncoded)\n            {\n                Link += b.ToString(\"x2\");\n            }\n            Console.WriteLine(Link);\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Domain/Models/Board.cs	(revision 850638cd53bc8bbe87ed623c1a1e785839bb4a92)
++++ Domain/Models/Board.cs	(date 1607441034256)
+@@ -1,4 +1,6 @@
+ using System;
++using System.Collections.Generic;
++using System.Collections.Immutable;
+ using System.Linq;
+ using System.Security.Cryptography;
+ 
+@@ -11,6 +13,20 @@
+         public string Link { get; private set; }
+         public BoardContent Content { get; private set; }
+         
++
++        #region Rights
++
++        public Guid Owner { get; private set; }
++
++        private HashSet<Guid> editors;
++        public ImmutableHashSet<Guid> Editors => editors.ToImmutableHashSet();
++        
++        private HashSet<Guid> readers;
++        public ImmutableHashSet<Guid> Readers => readers.ToImmutableHashSet();
++
++        #endregion
++        
++        
+         public Board(BoardContent content)
+         {
+             Console.WriteLine(Link);
+Index: NotesFE/Startup.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using Application;\nusing Application.Converters;\nusing Domain.Models;\nusing Infrastructure;\nusing Infrastructure.Records;\nusing Microsoft.AspNetCore.Builder;\nusing Microsoft.AspNetCore.Hosting;\nusing Microsoft.Extensions.DependencyInjection;\nusing Microsoft.Extensions.Hosting;\n\nnamespace NotesFE\n{\n    public class Startup\n    {\n        // This method gets called by the runtime. Use this method to add services to the container.\n        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940\n        public void ConfigureServices(IServiceCollection services)\n        {\n            services.AddSingleton<IConverter<BoardRecord, Board>, BoardConverter>();\n            services.AddSingleton<IConverter<BoardContentRecord, BoardContent>, BoardContentConverter>();\n            services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();\n            services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();\n            \n            services.AddSingleton<IBoardOperations, DefaultBoardOperations>();\n            services.AddSingleton<IBoardService, DefaultBoardService>();\n            services.AddMvc(options => options.EnableEndpointRouting = false);\n        }\n\n        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.\n        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)\n        {\n            if (env.IsDevelopment())\n            {\n                app.UseDeveloperExceptionPage();\n            }\n\n            app.UseStatusCodePages();\n            app.UseStaticFiles();\n            app.UseMvcWithDefaultRoute();\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NotesFE/Startup.cs	(revision 850638cd53bc8bbe87ed623c1a1e785839bb4a92)
++++ NotesFE/Startup.cs	(date 1607442501596)
+@@ -16,6 +16,7 @@
+         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+         public void ConfigureServices(IServiceCollection services)
+         {
++            
+             services.AddSingleton<IConverter<BoardRecord, Board>, BoardConverter>();
+             services.AddSingleton<IConverter<BoardContentRecord, BoardContent>, BoardContentConverter>();
+             services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();
+Index: NotesFE.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nMicrosoft Visual Studio Solution File, Format Version 12.00\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"NotesFE\", \"NotesFE\\NotesFE.csproj\", \"{759C5414-3A77-47C7-8AC4-74E63CB72A60}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Domain\", \"Domain\\Domain.csproj\", \"{A8137630-A4E0-431D-B577-5A0EC54A7731}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Infrastructure\", \"Infrastructure\\Infrastructure.csproj\", \"{46C0C90E-F90D-491D-847B-EE9AC352381B}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Application\", \"Application\\Application.csproj\", \"{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"NotesFETelegramBot\", \"NotesFETelegramBot\\NotesFETelegramBot.csproj\", \"{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Telegram.Bot.Examples.WebHook\", \"Telegram.Bot.Examples.WebHook\\Telegram.Bot.Examples.WebHook.csproj\", \"{1085E79B-CF8A-4EDF-B855-4C610B600203}\"\nEndProject\nGlobal\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\n\t\tDebug|Any CPU = Debug|Any CPU\n\t\tRelease|Any CPU = Release|Any CPU\n\tEndGlobalSection\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\n\t\t{759C5414-3A77-47C7-8AC4-74E63CB72A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{759C5414-3A77-47C7-8AC4-74E63CB72A60}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{759C5414-3A77-47C7-8AC4-74E63CB72A60}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{759C5414-3A77-47C7-8AC4-74E63CB72A60}.Release|Any CPU.Build.0 = Release|Any CPU\n\t\t{A8137630-A4E0-431D-B577-5A0EC54A7731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{A8137630-A4E0-431D-B577-5A0EC54A7731}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{A8137630-A4E0-431D-B577-5A0EC54A7731}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{A8137630-A4E0-431D-B577-5A0EC54A7731}.Release|Any CPU.Build.0 = Release|Any CPU\n\t\t{46C0C90E-F90D-491D-847B-EE9AC352381B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{46C0C90E-F90D-491D-847B-EE9AC352381B}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{46C0C90E-F90D-491D-847B-EE9AC352381B}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{46C0C90E-F90D-491D-847B-EE9AC352381B}.Release|Any CPU.Build.0 = Release|Any CPU\n\t\t{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.Build.0 = Release|Any CPU\n\t\t{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.Build.0 = Release|Any CPU\n\t\t{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\n\t\t{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.Build.0 = Debug|Any CPU\n\t\t{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.ActiveCfg = Release|Any CPU\n\t\t{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.Build.0 = Release|Any CPU\n\tEndGlobalSection\nEndGlobal\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NotesFE.sln	(revision 850638cd53bc8bbe87ed623c1a1e785839bb4a92)
++++ NotesFE.sln	(date 1607437404568)
+@@ -8,10 +8,6 @@
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesFETelegramBot", "NotesFETelegramBot\NotesFETelegramBot.csproj", "{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}"
+-EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Examples.WebHook", "Telegram.Bot.Examples.WebHook\Telegram.Bot.Examples.WebHook.csproj", "{1085E79B-CF8A-4EDF-B855-4C610B600203}"
+-EndProject
+ Global
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+ 		Debug|Any CPU = Debug|Any CPU
+@@ -34,13 +30,5 @@
+ 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{DE738CDF-8687-424C-9BB8-7ACEFCEA4D96}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.Build.0 = Release|Any CPU
+ 	EndGlobalSection
+ EndGlobal

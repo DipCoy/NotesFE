@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1" date="1607622132308" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10.12.2020, 22:41 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/NotesFETelegramBot.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Domain.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/NotesFE.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Infrastructure.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Application.csprojAssemblyReference.cache" />
+  </binary>
+</changelist>
