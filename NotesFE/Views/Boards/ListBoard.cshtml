@@ -11,35 +11,22 @@
 <div class="fixed-top">
     <h2>Доска ID: @Model.Id</h2>
     <div class="container">
-<<<<<<< Updated upstream
-            @{
-                var content = Model.Content;
-                var stickers = content.Stickers;
-                var first = stickers.First();
-                var stickerContent = first.Content;
-                var text = stickerContent.Text;
-                <span class="border border-danger">
-                    Content.Text: @Model.Content.Stickers.First().Content.Text
-                </span>
-                
-=======
-        @{
-            foreach (var sticker in Model.Content.Stickers)
-            {
-                <div class="align-baseline">
-                    <div class="col-4 themed-grid-col">
-                        <div class="p-3 border bg-light">
-                            @sticker.Content.Text
-                        </div>
-                        
+    @{
+        foreach (var sticker in Model.Content.Stickers)
+        {
+            <div class="align-baseline">
+                <div class="col-4 themed-grid-col">
+                    <div class="p-3 border bg-light">
+                        @sticker.Content.Text
                     </div>
-                    
+
                 </div>
-                
-                <br>
->>>>>>> Stashed changes
-            }
+
+            </div>
+
+            <br>
+        }
+    }
         </div>
-    
 </div>
 

@@ -15,6 +15,12 @@ namespace NotesFE.Controllers
             this.boardService = boardService;
         }
 
+        [Route("/signin")]
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
         [Route("board/{id}")]
         public IActionResult ListBoard(int id)
         {
