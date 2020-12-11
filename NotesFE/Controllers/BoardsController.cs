@@ -18,8 +18,12 @@ namespace NotesFE.Controllers
         [Route("board/{link}")]
         public IActionResult ListBoard(string link)
         {
+            Console.WriteLine(User.Identity.Name);
+            Console.WriteLine(User.Identity.IsAuthenticated);
             if (boardService.TryGetBoard(link, out var board))
-                return View(board);
+            {
+                return View(board);   
+            }
             return NotFound();
         }
         

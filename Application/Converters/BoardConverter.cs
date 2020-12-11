@@ -16,7 +16,7 @@ namespace Application.Converters
 
         public Board Convert(BoardRecord record)
         {
-            return new Board(boardContentConverter.Convert(record.Content));
+            return new Board(boardContentConverter.Convert(record.Content), record.WhoHasAccess);
         }
 
         public BoardRecord Convert(Board source)
@@ -24,7 +24,8 @@ namespace Application.Converters
             return new BoardRecord()
             {
                 Id = source.Id,
-                Content = boardContentConverter.Convert(source.Content)
+                Content = boardContentConverter.Convert(source.Content),
+                WhoHasAccess = source.WhoHasAccess
             };
         }
     }

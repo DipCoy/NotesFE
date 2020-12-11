@@ -32,6 +32,12 @@
       <e p="Domain" t="IncludeRecursive">
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="Access" t="Include">
+            <e p="IAccessParameters.cs" t="Include" />
+            <e p="OnlyOwnerAccessParameters.cs" t="Include" />
+            <e p="PrivateAccessParameters.cs" t="Include" />
+            <e p="PublicAccessParameters.cs" t="Include" />
+          </e>
           <e p="Board.cs" t="Include" />
           <e p="BoardContent.cs" t="Include" />
           <e p="Sticker.cs" t="Include" />
@@ -39,6 +45,7 @@
           <e p="User.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="BoardModel.cs" t="Include" />
           <e p="LoginModel.cs" t="Include" />
           <e p="RegisterModel.cs" t="Include" />
         </e>
