@@ -2,7 +2,7 @@ namespace Domain.Models
 {
     public class StickerContent
     {
-        public string Text { get; private set; }
+        public string Text { get; set; }
 
         public StickerContent(string text)
         {

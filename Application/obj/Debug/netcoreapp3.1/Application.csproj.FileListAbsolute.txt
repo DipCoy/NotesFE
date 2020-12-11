@@ -26,3 +26,17 @@ D:/Документы/!GitHub/NotesFE/Application/obj/Debug/netcoreapp3.1/Applic
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
 /home/dipcoy/RiderProjects/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Application.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.dll
+/home/artem/Рабочий стол/C#/NotesFE/Application/obj/Debug/netcoreapp3.1/Application.pdb

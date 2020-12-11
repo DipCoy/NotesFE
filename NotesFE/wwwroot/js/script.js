@@ -1,10 +1,13 @@
-﻿window.onload = function(){
+﻿let count = 0
+
+window.onload = function(){
     add_btn();
 }
 
 function delete_input() {
     if (this.parentElement.parentElement.parentElement.childElementCount > 1){
         this.parentElement.parentElement.remove();
+        count -= 1
     } else {
         alert("Необходимо указать хотя бы одну технологию, если таких нет, то поставить знак '-'");
     }
@@ -22,7 +25,9 @@ function add_btn(){
         let textarea = document.createElement("textarea");
         textarea.className = "form-control";
         textarea.rows = 3;
-        textarea.name = "stickersText";
+        textarea.name = "boardModel.Content.Stickers[" + count + "].Content.Text";
+        count += 1
+        // alert(count)
 
         div2.append(textarea);
         div.append(div2);

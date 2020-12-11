@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/dipcoy/.nuget/packages/": {}
+    "/home/artem/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
+      "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
-      "packagesPath": "/home/dipcoy/.nuget/packages/",
-      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/Domain/obj/",
+      "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
+      "packagesPath": "/home/artem/.nuget/packages/",
+      "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+        "/home/artem/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
   }

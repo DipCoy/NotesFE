@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4m3xRYidW/Fj6d01He7H0Idt3mD1qE2jRBQLxHzRzgU7pjMqHFfkgHFw6dDxKRAmcsYe9PJxUv48xXlJvzKlrg==",
+  "dgSpecHash": "W0VoN5Vj3zLDEa12ggpy/5VoUGmHomkMmW6NxUJRUjk/NhqrKEBLDbISgQC6xaZkGeK1E+keWdOFKUQKllq/TA==",
   "success": true,
-  "projectFilePath": "/home/dipcoy/RiderProjects/NotesFE/Domain/Domain.csproj",
+  "projectFilePath": "/home/artem/Рабочий стол/C#/NotesFE/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
