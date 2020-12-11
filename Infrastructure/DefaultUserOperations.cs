@@ -13,11 +13,11 @@ namespace Infrastructure
             this.database = database;
         }
         
-        public bool TryGetUserRecord(string login, string password, out UserRecord userRecord)
+        public bool TryGetUserRecord(string login, out UserRecord userRecord)
         {
             var collection = database.GetCollection<UserRecord>(collectionName);
             collection.EnsureIndex(s => s.Login);
-            userRecord = collection.FindOne(x => x.Login == login && x.Password == password);
+            userRecord = collection.FindOne(x => x.Login == login);
             return !(userRecord is null);
         }
 

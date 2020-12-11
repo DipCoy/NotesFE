@@ -4,7 +4,7 @@ namespace Infrastructure
 {
     public interface IUserOperations
     {
-        public bool TryGetUserRecord(string login, string password, out UserRecord userRecord);
+        public bool TryGetUserRecord(string login, out UserRecord userRecord);
         public bool TryAddUserRecord(UserRecord userRecord);
     }
 }

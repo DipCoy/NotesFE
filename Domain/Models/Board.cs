@@ -26,5 +26,7 @@ namespace Domain.Models
         {
             return whoHasAccess is null || whoHasAccess.Contains(user.Id);
         }
+
+        public bool IsPublic => whoHasAccess is null;
     }
 }

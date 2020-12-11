@@ -38,7 +38,7 @@ namespace NotesFE.Controllers
             if (ModelState.IsValid)
             {
                 User user;
-                if (userService.TryGetUser(model.Login, model.Password, out user))
+                if (userService.TryGetUser(model.Login, out user) && user.Password == model.Password)
                 {
                     await Authenticate(model.Login);
 
@@ -67,7 +67,7 @@ namespace NotesFE.Controllers
             if (ModelState.IsValid)
             {
                 User user;
-                if (!userService.TryGetUser(model.Login, model.Password, out user))
+                if (!(userService.TryGetUser(model.Login, out user) && user.Password == model.Password))
                 {
                     userService.TryAddUser(new User(){Login = model.Login, Password = model.Password});
 

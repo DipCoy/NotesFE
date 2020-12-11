@@ -16,9 +16,9 @@ namespace Application
             this.userConverter = userConverter;
         }
         
-        public bool TryGetUser(string login, string password, out User user)
+        public bool TryGetUser(string login, out User user)
         {
-            if (dataBase.TryGetUserRecord(login, password, out var userRecord))
+            if (dataBase.TryGetUserRecord(login, out var userRecord))
             {
                 user = userConverter.Convert(userRecord);
                 return true;
