@@ -4,6 +4,7 @@ namespace Domain.Models
     {
         public StickerContent Content { get; set; }
         
+        
         public Sticker(StickerContent content)
         {
             Content = content;

@@ -33,85 +33,10 @@
     <list default="true" id="0e699ee9-d02a-49c1-8381-72d51fdabd85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Models/Sticker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Sticker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Models/StickerContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/StickerContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/BoardModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Boards-log.db" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Boards-log.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/StickerContentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ViewModels/StickerContentModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/_layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/_layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Errors/NotFound.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Errors/NotFound.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +44,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="auth" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -150,17 +88,21 @@
         <option value="$PROJECT_DIR$/Infrastructure/Records/BoardRecord.cs" />
         <option value="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" />
         <option value="$PROJECT_DIR$/Domain/Models/Board.cs" />
-        <option value="$PROJECT_DIR$/Domain/Models/StickerContent.cs" />
-        <option value="$PROJECT_DIR$/Domain/Models/Sticker.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/BoardContent.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/Sticker.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/StickerContent.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/StickerModel.cs" />
-        <option value="$PROJECT_DIR$/Domain/ViewModels/StickerContentModel.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/BoardModel.cs" />
         <option value="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/BoardContentModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Access/TameTable.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/TameTable.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Sticker.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/StickerContent.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/TimeTableModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/StickerContentModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/TimeTable.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" />
       </list>
     </option>

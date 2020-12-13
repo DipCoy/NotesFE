@@ -60,7 +60,12 @@ namespace NotesFE.Controllers
             // if (boardService.TryAddBoard(board, out var link))
             //     return Redirect($"board/{link}");
             // return Conflict();
-            var res = string.Join("|||", boardModel.Content.Stickers.Select(s => s.Content.Text));
+            var res = string.Join("|||", boardModel.Content.Stickers.Select(s => s.Content).Select(c =>
+            {
+                var str = c.Text ?? "";
+                str += "|| TimeTable: \n";
+                return c.TimeTable == null ? str : c.TimeTable.Rows.Aggregate(str, (current, row) => current + (row.Item1 + " : " + row.Item2 + "\n"));
+            }));
             return Content($"{boardModel.accessType} : {res}");
             // return Content($"{boardModel.accessType} : {string.Join("||", boardModel.Content.Strings)}");
         }

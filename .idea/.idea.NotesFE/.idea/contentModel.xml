@@ -42,6 +42,7 @@
           <e p="BoardContent.cs" t="Include" />
           <e p="Sticker.cs" t="Include" />
           <e p="StickerContent.cs" t="Include" />
+          <e p="TimeTable.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
@@ -51,6 +52,7 @@
           <e p="RegisterModel.cs" t="Include" />
           <e p="StickerContentModel.cs" t="Include" />
           <e p="StickerModel.cs" t="Include" />
+          <e p="TimeTableModel.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
