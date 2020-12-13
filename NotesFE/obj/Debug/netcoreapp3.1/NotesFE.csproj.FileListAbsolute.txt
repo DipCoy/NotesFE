@@ -71,7 +71,6 @@ D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.ge
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs
-/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/_layout.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Errors/NotFound.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.RazorTargetAssemblyInfo.cache
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.RazorTargetAssemblyInfo.cs
@@ -84,3 +83,5 @@ D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.ge
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.genruntimeconfig.cache
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs
+/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login1.cshtml.g.cs
+/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/_layout.cshtml.g.cs

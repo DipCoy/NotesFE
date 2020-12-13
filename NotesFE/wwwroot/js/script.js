@@ -45,6 +45,7 @@ function add_btn(){
         textarea.className = "form-control";
         textarea.rows = 3;
         textarea.name = "StickersText";
+        alert(textarea.name);
 
         div2.append(textarea);
         div.append(div2);

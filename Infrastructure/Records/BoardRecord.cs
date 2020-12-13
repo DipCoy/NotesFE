@@ -11,5 +11,6 @@ namespace Infrastructure.Records
         public string Link { get; set; }
         public BoardContentRecord Content{ get; set; }
         public HashSet<Guid> WhoHasAccess { get; set; }
+        
     }
 }

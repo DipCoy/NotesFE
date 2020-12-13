@@ -9,7 +9,9 @@
         <e p="Converters" t="Include">
           <e p="BoardContentConverter.cs" t="Include" />
           <e p="BoardConverter.cs" t="Include" />
+          <e p="IAccessConverter.cs" t="Include" />
           <e p="IConverter.cs" t="Include" />
+          <e p="PublicAccessConverter.cs" t="Include" />
           <e p="StickerContentConverter.cs" t="Include" />
           <e p="StickerConverter.cs" t="Include" />
           <e p="UserConverter.cs" t="Include" />
@@ -97,6 +99,7 @@
         <e p="Views" t="Include">
           <e p="Account" t="Include">
             <e p="Login.cshtml" t="Include" />
+            <e p="Login1.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
           <e p="Boards" t="Include">
@@ -104,12 +107,12 @@
             <e p="ListBoard.cshtml" t="Include" />
             <e p="ShowMain.cshtml" t="Include" />
             <e p="ShowMain.cshtml.cs" t="Include" />
-            <e p="_layout.cshtml" t="Include" />
-            <e p="_layout.cshtml.cs" t="Include" />
           </e>
           <e p="Errors" t="Include">
             <e p="NotFound.cshtml" t="Include" />
           </e>
+          <e p="_layout.cshtml" t="Include" />
+          <e p="_layout.cshtml.cs" t="Include" />
         </e>
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />

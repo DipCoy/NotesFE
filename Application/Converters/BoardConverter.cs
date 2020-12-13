@@ -1,21 +1,35 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Domain.Models;
 using Infrastructure.Records;
 
 namespace Application.Converters
 {
+    enum AccessTypeRecord //infr
+    {
+        Public,
+        Private
+    }
+    
     public class BoardConverter: IConverter<BoardRecord, Board>
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;
+        private Dictionary<AccessTypeRecord, IAccessConverter> accessConverters;
 
-        public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter)
+        public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter, 
+            PublicAccessConverter publicAccessConverter, 
+            PrivateAccessConverter privateAccessConverter)
         {
             this.boardContentConverter = boardContentConverter;
+            accessConverters[AccessTypeRecord.Public] = publicAccessConverter;
+            accessConverters[AccessTypeRecord.Private] = privateAccessConverter;
         }
 
         public Board Convert(BoardRecord record)
         {
+            var accessParams = accessConverters[record.AccessType].Get(record.AccessType);
+            var acParams = dict[record.enum].getAccessParameters(record.AccessParamDocId);
             return new Board(boardContentConverter.Convert(record.Content), record.WhoHasAccess);
         }
 
