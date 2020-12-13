@@ -3,6 +3,7 @@ using LiteDB;
 
 namespace Infrastructure.Records
 {
+    [CollectionName("users")]
     public class UserRecord
     {
         [BsonId]

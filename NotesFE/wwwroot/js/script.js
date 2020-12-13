@@ -13,6 +13,28 @@ function delete_input() {
     }
 }
 
+function select_users_access(radio){
+    if(radio.value === "Private") {
+        let textarea = document.getElementById("AccessedUsers");
+        if (textarea != null){
+            return;
+        }
+        let rb = document.getElementById("privateRB");
+        textarea = document.createElement("textarea");
+        textarea.id = "AccessedUsers"
+        textarea.className = "form-control";
+        textarea.rows = 3;
+        textarea.name = "AccessedUsers";
+        rb.before(textarea);   
+    }
+    else {
+        let textarea = document.getElementById("AccessedUsers");
+        if (textarea != null) {
+            textarea.remove();
+        }
+    }
+}
+
 function add_btn(){
     let btn = document.getElementById("add_input");
     let c =  btn.parentElement.childNodes.length;
@@ -27,7 +49,6 @@ function add_btn(){
         textarea.rows = 3;
         textarea.name = "boardModel.Content.Stickers[" + count + "].Content.Text";
         count += 1
-        // alert(count)
 
         div2.append(textarea);
         div.append(div2);

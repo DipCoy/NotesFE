@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_NotesFE.1746268301.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_NotesFE.1279353892.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
         <e p="Converters" t="Include">
           <e p="BoardContentConverter.cs" t="Include" />
           <e p="BoardConverter.cs" t="Include" />
+          <e p="IAccessConverter.cs" t="Include" />
           <e p="IConverter.cs" t="Include" />
+          <e p="PublicAccessConverter.cs" t="Include" />
           <e p="StickerContentConverter.cs" t="Include" />
           <e p="StickerConverter.cs" t="Include" />
           <e p="UserConverter.cs" t="Include" />
@@ -64,12 +66,14 @@
         </e>
       </e>
       <e p="Infrastructure" t="IncludeRecursive">
-        <e p="DefaultBoardOperations.cs" t="Include" />
-        <e p="DefaultUserOperations.cs" t="Include" />
-        <e p="IBoardOperations.cs" t="Include" />
-        <e p="IUserOperations.cs" t="Include" />
+        <e p="CollectionNameAttribute.cs" t="Include" />
+        <e p="IDataBaseOperations.cs" t="Include" />
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="LiteDBDataBaseOperations.cs" t="Include" />
         <e p="Records" t="Include">
+          <e p="Access" t="Include">
+            <e p="AccessTypeRecord.cs" t="Include" />
+          </e>
           <e p="BoardContentRecord.cs" t="Include" />
           <e p="BoardRecord.cs" t="Include" />
           <e p="StickerContentRecord.cs" t="Include" />
@@ -102,6 +106,7 @@
         <e p="Views" t="Include">
           <e p="Account" t="Include">
             <e p="Login.cshtml" t="Include" />
+            <e p="Login1.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
           <e p="Boards" t="Include">
@@ -109,12 +114,12 @@
             <e p="ListBoard.cshtml" t="Include" />
             <e p="ShowMain.cshtml" t="Include" />
             <e p="ShowMain.cshtml.cs" t="Include" />
-            <e p="_layout.cshtml" t="Include" />
-            <e p="_layout.cshtml.cs" t="Include" />
           </e>
           <e p="Errors" t="Include">
             <e p="NotFound.cshtml" t="Include" />
           </e>
+          <e p="_layout.cshtml" t="Include" />
+          <e p="_layout.cshtml.cs" t="Include" />
         </e>
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
