@@ -7,11 +7,11 @@ namespace Application
 {
     public class DefaultBoardService: IBoardService
     {
-        private readonly IBoardOperations dataBase;
+        private readonly IDataBaseOperations dataBase;
         private readonly IConverter<BoardRecord, Board> boardConverter;
         private readonly ILinkGenerator linkGenerator;
 
-        public DefaultBoardService(IBoardOperations dataBase, IConverter<BoardRecord, Board> boardConverter, ILinkGenerator linkGenerator)
+        public DefaultBoardService(IDataBaseOperations dataBase, IConverter<BoardRecord, Board> boardConverter, ILinkGenerator linkGenerator)
         {
             this.dataBase = dataBase;
             this.boardConverter = boardConverter;
@@ -20,7 +20,7 @@ namespace Application
 
         public bool TryGetBoard(string link, out Board board)
         {
-            if (dataBase.TryGetBoardRecord(link, out var boardRecord))
+            if (dataBase.TryGetRecord<BoardRecord>(x => x.Link == link, out var boardRecord))
             {
                 board = boardConverter.Convert(boardRecord);
                 return true;
@@ -35,7 +35,7 @@ namespace Application
             var boardRecord = boardConverter.Convert(board);
             link = linkGenerator.NewLink();
             boardRecord.Link = link;
-            return dataBase.TryAddBoardRecord(boardRecord);
+            return dataBase.TryAddRecord(boardRecord);
         }
     }
 }

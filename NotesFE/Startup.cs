@@ -28,10 +28,9 @@ namespace NotesFE
             services.AddSingleton(typeof(ILiteDatabase), new LiteDatabase("Boards.db"));
 
             services.AddSingleton<ILinkGenerator, MD5LinkGenerator>();
-            services.AddSingleton<IBoardOperations, DefaultBoardOperations>();
+            services.AddSingleton<IDataBaseOperations, LiteDBDataBaseOperations>();
+            
             services.AddSingleton<IBoardService, DefaultBoardService>();
-
-            services.AddSingleton<IUserOperations, DefaultUserOperations>();
             services.AddSingleton<IUserService, DefaultUserService>();
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

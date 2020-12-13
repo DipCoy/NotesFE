@@ -7,10 +7,10 @@ namespace Application
 {
     public class DefaultUserService : IUserService
     {
-        private readonly IUserOperations dataBase;
+        private readonly IDataBaseOperations dataBase;
         private readonly IConverter<UserRecord, User> userConverter;
         
-        public DefaultUserService(IUserOperations dataBase, IConverter<UserRecord, User> userConverter)
+        public DefaultUserService(IDataBaseOperations dataBase, IConverter<UserRecord, User> userConverter)
         {
             this.dataBase = dataBase;
             this.userConverter = userConverter;
@@ -18,7 +18,7 @@ namespace Application
         
         public bool TryGetUser(string login, out User user)
         {
-            if (dataBase.TryGetUserRecord(login, out var userRecord))
+            if (dataBase.TryGetRecord<UserRecord>(x => x.Login == login, out var userRecord))
             {
                 user = userConverter.Convert(userRecord);
                 return true;
@@ -30,7 +30,7 @@ namespace Application
 
         public bool TryAddUser(User user)
         {
-            return dataBase.TryAddUserRecord(userConverter.Convert(user));
+            return dataBase.TryAddRecord(userConverter.Convert(user));
         }
     }
 }
