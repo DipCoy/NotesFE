@@ -4,6 +4,7 @@ using LiteDB;
 
 namespace Infrastructure.Records
 {
+    [CollectionName("boards")]
     public class BoardRecord
     {
         [BsonId]

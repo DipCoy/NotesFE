@@ -3,15 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Domain.Models;
 using Infrastructure.Records;
+using Infrastructure.Records.Access;
 
 namespace Application.Converters
 {
-    enum AccessTypeRecord //infr
-    {
-        Public,
-        Private
-    }
-    
     public class BoardConverter: IConverter<BoardRecord, Board>
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;

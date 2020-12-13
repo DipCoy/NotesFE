@@ -66,6 +66,9 @@
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="LiteDBDataBaseOperations.cs" t="Include" />
         <e p="Records" t="Include">
+          <e p="Access" t="Include">
+            <e p="AccessTypeRecord.cs" t="Include" />
+          </e>
           <e p="BoardContentRecord.cs" t="Include" />
           <e p="BoardRecord.cs" t="Include" />
           <e p="StickerContentRecord.cs" t="Include" />
