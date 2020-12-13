@@ -6,12 +6,16 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
+        <e p="Application.csproj.DotSettings" t="Include" />
         <e p="Converters" t="Include">
+          <e p="AccessConverters" t="Include">
+            <e p="IAccessConverter.cs" t="Include" />
+            <e p="PrivateAccessConverter.cs" t="Include" />
+            <e p="PublicAccessConverter.cs" t="Include" />
+          </e>
           <e p="BoardContentConverter.cs" t="Include" />
           <e p="BoardConverter.cs" t="Include" />
-          <e p="IAccessConverter.cs" t="Include" />
           <e p="IConverter.cs" t="Include" />
-          <e p="PublicAccessConverter.cs" t="Include" />
           <e p="StickerContentConverter.cs" t="Include" />
           <e p="StickerConverter.cs" t="Include" />
           <e p="UserConverter.cs" t="Include" />
@@ -73,6 +77,7 @@
         <e p="Records" t="Include">
           <e p="Access" t="Include">
             <e p="AccessTypeRecord.cs" t="Include" />
+            <e p="PrivateAccessRecord.cs" t="Include" />
           </e>
           <e p="BoardContentRecord.cs" t="Include" />
           <e p="BoardRecord.cs" t="Include" />

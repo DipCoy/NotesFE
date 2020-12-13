@@ -1,7 +1,9 @@
+using System;
 using Application.Converters;
 using Domain.Models;
 using Infrastructure;
 using Infrastructure.Records;
+using Infrastructure.Records.Access;
 
 namespace Application
 {
@@ -35,6 +37,12 @@ namespace Application
             var boardRecord = boardConverter.Convert(board);
             link = linkGenerator.NewLink();
             boardRecord.Link = link;
+            boardRecord.AccessInformation = Guid.NewGuid();
+
+            if (boardRecord.AccessType != AccessTypeRecord.Public)
+            {
+                
+            }
             return dataBase.TryAddRecord(boardRecord);
         }
     }

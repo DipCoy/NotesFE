@@ -1,8 +1,8 @@
 namespace Infrastructure.Records.Access
 {
-    public enum AccessTypeRecord //infr
+    public enum AccessTypeRecord
     {
-        Public,
-        Private
+        Private,
+        Public
     }
 }

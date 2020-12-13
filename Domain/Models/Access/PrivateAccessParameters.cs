@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Domain.Models
+namespace Domain.Models.Access
 {
     public class PrivateAccessParameters : IAccessParameters
     {
@@ -17,5 +17,7 @@ namespace Domain.Models
         {
             return havingAccess.Contains(user.Id);
         }
+
+        public AccessType GetType() => AccessType.Private;
     }
 }

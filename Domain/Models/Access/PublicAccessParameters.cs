@@ -1,4 +1,4 @@
-namespace Domain.Models
+namespace Domain.Models.Access
 {
     public class PublicAccessParameters : IAccessParameters
     {
@@ -6,5 +6,7 @@ namespace Domain.Models
         {
             return true;
         }
+
+        public AccessType GetType() => AccessType.Public;
     }
 }

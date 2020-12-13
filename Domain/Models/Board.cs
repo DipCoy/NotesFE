@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
+using Domain.Models.Access;
 
 namespace Domain.Models
 {
@@ -9,24 +10,12 @@ namespace Domain.Models
     {
         public Guid Id { get; private set;}
         public BoardContent Content { get; private set; }
+        public IAccessParameters AccessParameters { get; private set; }
 
-        private HashSet<Guid> whoHasAccess;
-
-        public HashSet<Guid> WhoHasAccess => whoHasAccess?.ToHashSet();
-        
-        public Board(BoardContent content, IEnumerable<Guid> whoHasAccess = null)
+        public Board(BoardContent content, IAccessParameters accessParameters)
         {
             Content = content;
-            
-            if (whoHasAccess != null)
-                this.whoHasAccess = whoHasAccess.ToHashSet();
+            AccessParameters = accessParameters;
         }
-
-        public bool HasAccess(User user)
-        {
-            return whoHasAccess is null || whoHasAccess.Contains(user.Id);
-        }
-
-        public bool IsPublic => whoHasAccess is null;
     }
 }

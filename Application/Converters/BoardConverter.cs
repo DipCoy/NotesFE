@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Application.Converters.Access;
 using Domain.Models;
+using Domain.Models.Access;
 using Infrastructure.Records;
 using Infrastructure.Records.Access;
 
@@ -11,31 +13,54 @@ namespace Application.Converters
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;
         
-        private Dictionary<AccessTypeRecord, IAccessConverter> accessConverters;
+        private Dictionary<AccessType, IAccessConverter> accessConverters;
 
         public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter, 
             PublicAccessConverter publicAccessConverter, 
             PrivateAccessConverter privateAccessConverter)
         {
             this.boardContentConverter = boardContentConverter;
-            accessConverters[AccessTypeRecord.Public] = publicAccessConverter;
-            accessConverters[AccessTypeRecord.Private] = privateAccessConverter;
+            accessConverters[AccessType.Public] = publicAccessConverter;
+            accessConverters[AccessType.Private] = privateAccessConverter;
         }
 
         public Board Convert(BoardRecord record)
         {
-            var accessParams = accessConverters[record.AccessType].Get(record.AccessType);
-            var acParams = dict[record.enum].getAccessParameters(record.AccessParamDocId);
-            return new Board(boardContentConverter.Convert(record.Content), record.WhoHasAccess);
+            IAccessParameters accessParameters;
+            switch (record.AccessType)
+            {
+                case AccessTypeRecord.Private:
+                    accessParameters = accessConverters[AccessType.Private].Get(record.AccessInformation);
+                    break;
+                case AccessTypeRecord.Public:
+                    accessParameters = accessConverters[AccessType.Public].Get(record.AccessInformation);
+                    break;
+                default:
+                    throw new NotImplementedException();
+            }
+            return new Board(boardContentConverter.Convert(record.Content), accessParameters);
         }
 
         public BoardRecord Convert(Board source)
         {
+            AccessTypeRecord accessTypeRecord;
+            switch (source.AccessParameters.GetType())
+            {
+                case AccessType.Private:
+                    accessTypeRecord = AccessTypeRecord.Private;
+                    break;
+                case AccessType.Public:
+                    accessTypeRecord = AccessTypeRecord.Public;
+                    break;
+                default:
+                    throw new NotImplementedException();
+            }
+            
             return new BoardRecord()
             {
                 Id = source.Id,
                 Content = boardContentConverter.Convert(source.Content),
-                WhoHasAccess = source.WhoHasAccess
+                AccessType = accessTypeRecord
             };
         }
     }

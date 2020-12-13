@@ -1,6 +1,6 @@
 using System;
 
-namespace Domain.Models
+namespace Domain.Models.Access
 {
     public class OnlyOwnerAccessParameters : IAccessParameters
     {
@@ -14,5 +14,7 @@ namespace Domain.Models
         {
             return user.Id == owner;
         }
+
+        public AccessType GetType() => AccessType.Owner;
     }
 }

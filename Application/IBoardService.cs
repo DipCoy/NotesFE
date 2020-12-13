@@ -1,6 +1,6 @@
 using Domain.Models;
 
-namespace Application.Converters
+namespace Application
 {
     public interface IBoardService
     {

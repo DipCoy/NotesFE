@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace NotesFE.Views.Boards
+namespace NotesFE.Views
 {
     public class _layout : PageModel
     {
