@@ -13,15 +13,16 @@ namespace Application.Converters
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;
         
-        private Dictionary<AccessType, IAccessConverter> accessConverters;
+        //private Dictionary<AccessType, IAccessService> accessConverters;
+        private AllPossibleAccessServices allPossibleAccessServices;
 
         public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter, 
-            PublicAccessConverter publicAccessConverter, 
-            PrivateAccessConverter privateAccessConverter)
+            AllPossibleAccessServices allPossibleAccessServices)
         {
             this.boardContentConverter = boardContentConverter;
-            accessConverters[AccessType.Public] = publicAccessConverter;
-            accessConverters[AccessType.Private] = privateAccessConverter;
+            this.allPossibleAccessServices = allPossibleAccessServices;
+            //accessConverters[AccessType.Public] = publicAccessService;
+            //accessConverters[AccessType.Private] = privateAccessService;
         }
 
         public Board Convert(BoardRecord record)
@@ -30,10 +31,10 @@ namespace Application.Converters
             switch (record.AccessType)
             {
                 case AccessTypeRecord.Private:
-                    accessParameters = accessConverters[AccessType.Private].Get(record.AccessInformation);
+                    accessParameters = allPossibleAccessServices.Services[AccessType.Private].FromLink(record.AccessInformation);
                     break;
                 case AccessTypeRecord.Public:
-                    accessParameters = accessConverters[AccessType.Public].Get(record.AccessInformation);
+                    accessParameters = allPossibleAccessServices.Services[AccessType.Public].FromLink(record.AccessInformation);
                     break;
                 default:
                     throw new NotImplementedException();
@@ -55,7 +56,6 @@ namespace Application.Converters
                 default:
                     throw new NotImplementedException();
             }
-            
             return new BoardRecord()
             {
                 Id = source.Id,

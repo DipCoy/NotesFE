@@ -1,6 +1,7 @@
 using System;
 using Application.Converters;
 using Domain.Models;
+using Domain.Models.Access;
 using Infrastructure;
 using Infrastructure.Records;
 using Infrastructure.Records.Access;
@@ -12,12 +13,17 @@ namespace Application
         private readonly IDataBaseOperations dataBase;
         private readonly IConverter<BoardRecord, Board> boardConverter;
         private readonly ILinkGenerator linkGenerator;
-
-        public DefaultBoardService(IDataBaseOperations dataBase, IConverter<BoardRecord, Board> boardConverter, ILinkGenerator linkGenerator)
+        private readonly IConverter<PrivateAccessRecord, PrivateAccessParameters> privateAccessConverter;
+        
+        public DefaultBoardService(IDataBaseOperations dataBase, 
+            IConverter<BoardRecord, Board> boardConverter, 
+            ILinkGenerator linkGenerator,
+            IConverter<PrivateAccessRecord, PrivateAccessParameters> privateAccessConverter)
         {
             this.dataBase = dataBase;
             this.boardConverter = boardConverter;
             this.linkGenerator = linkGenerator;
+            this.privateAccessConverter = privateAccessConverter;
         }
 
         public bool TryGetBoard(string link, out Board board)
@@ -37,13 +43,22 @@ namespace Application
             var boardRecord = boardConverter.Convert(board);
             link = linkGenerator.NewLink();
             boardRecord.Link = link;
-            boardRecord.AccessInformation = Guid.NewGuid();
 
-            if (boardRecord.AccessType != AccessTypeRecord.Public)
+            var isAddingAccessRecordSuccess = true;
+            switch (boardRecord.AccessType)
             {
-                
+                case AccessTypeRecord.Public:
+                    break;
+                case AccessTypeRecord.Private:
+                    var record = privateAccessConverter.Convert((PrivateAccessParameters)board.AccessParameters);
+                    record.Link = boardRecord.Link;
+                    isAddingAccessRecordSuccess = dataBase.TryAddRecord(record, out var _);
+                    break;
+                default:
+                    throw new NotImplementedException();
             }
-            return dataBase.TryAddRecord(boardRecord);
+            
+            return isAddingAccessRecordSuccess && dataBase.TryAddRecord(boardRecord, out var _);
         }
     }
 }

@@ -24,7 +24,7 @@ function select_users_access(radio){
         textarea.id = "AccessedUsers"
         textarea.className = "form-control";
         textarea.rows = 3;
-        textarea.name = "AccessedUsers";
+        textarea.name = "boardModel.AccessedUsers";
         rb.before(textarea);   
     }
     else {

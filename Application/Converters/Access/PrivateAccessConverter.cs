@@ -1,25 +1,21 @@
-using System;
 using Domain.Models.Access;
-using Infrastructure;
 using Infrastructure.Records.Access;
 
 namespace Application.Converters.Access
 {
-    public class PrivateAccessConverter : IAccessConverter
+    public class PrivateAccessConverter : IConverter<PrivateAccessRecord, PrivateAccessParameters>
     {
-        private readonly IDataBaseOperations dataBase;
-
-        public PrivateAccessConverter(IDataBaseOperations dataBaseOperations)
+        public PrivateAccessParameters Convert(PrivateAccessRecord source)
         {
-            dataBase = dataBaseOperations;
+            return new PrivateAccessParameters(source.AccessedUsers);
         }
 
-        public IAccessParameters Get(Guid guid)
+        public PrivateAccessRecord Convert(PrivateAccessParameters source)
         {
-            if (!dataBase.TryGetRecord<PrivateAccessRecord>(x => x.Id == guid, out var accessParamsRecord))
-                throw new ArgumentException("Guid does not exist");
-
-            return new PrivateAccessParameters(accessParamsRecord.AccessedUsers);
+            return new PrivateAccessRecord()
+            {
+                AccessedUsers = source.HavingAccess
+            };
         }
     }
 }

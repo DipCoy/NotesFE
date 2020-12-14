@@ -1,8 +1,11 @@
 using Application;
 using Application.Converters;
+using Application.Converters.Access;
 using Domain.Models;
+using Domain.Models.Access;
 using Infrastructure;
 using Infrastructure.Records;
+using Infrastructure.Records.Access;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using LiteDB;
 using Microsoft.AspNetCore.Builder;
@@ -23,7 +26,11 @@ namespace NotesFE
             services.AddSingleton<IConverter<BoardContentRecord, BoardContent>, BoardContentConverter>();
             services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();
             services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();
+            services.AddSingleton<IConverter<TimeTableRecord, TimeTable>, TimeTableConverter>();
+            
             services.AddSingleton<IConverter<UserRecord, User>, UserConverter>();
+
+            services.AddSingleton<IConverter<PrivateAccessRecord, PrivateAccessParameters>, PrivateAccessConverter>();
 
             services.AddSingleton(typeof(ILiteDatabase), new LiteDatabase("Boards.db"));
 
@@ -32,6 +39,8 @@ namespace NotesFE
             
             services.AddSingleton<IBoardService, DefaultBoardService>();
             services.AddSingleton<IUserService, DefaultUserService>();
+
+            services.AddSingleton(typeof(AllPossibleAccessServices));
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>

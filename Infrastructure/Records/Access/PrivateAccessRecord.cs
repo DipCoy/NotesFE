@@ -7,8 +7,9 @@ namespace Infrastructure.Records.Access
     [CollectionName("privates")]
     public class PrivateAccessRecord
     {
-        [BsonId] 
+        [BsonId]
         public Guid Id { get; set; }
         public HashSet<Guid> AccessedUsers { get; set; }
+        public string Link { get; set; }
     }
 }

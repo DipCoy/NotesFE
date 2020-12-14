@@ -4,9 +4,9 @@ using Infrastructure;
 
 namespace Application.Converters.Access
 {
-    public class PublicAccessConverter : IAccessConverter
+    public class PublicAccessService : IAccessService
     {
-        public IAccessParameters Get(Guid guid)
+        public IAccessParameters FromLink(string link)
         {
             return new PublicAccessParameters();
         }

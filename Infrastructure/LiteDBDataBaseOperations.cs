@@ -24,18 +24,20 @@ namespace Infrastructure
             
         }
 
-        public bool TryAddRecord<TRecord>(TRecord record)
+        public bool TryAddRecord<TRecord>(TRecord record, out Guid guid)
         {
             var collectionName = GetCollectionName<TRecord>();
             try
             {
-                database
+                var bsonValue = database
                     .GetCollection<TRecord>(collectionName)
                     .Insert(record);
+                guid = bsonValue.AsGuid;
                 return true;
             }
             catch
             {
+                guid = default;
                 return false;
             }
         }

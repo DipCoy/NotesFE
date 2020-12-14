@@ -4,8 +4,8 @@ using Infrastructure;
 
 namespace Application.Converters.Access
 {
-    public interface IAccessConverter
+    public interface IAccessService
     {
-        IAccessParameters Get(Guid guid);
+        IAccessParameters FromLink(string link);
     }
 }

@@ -30,7 +30,7 @@ namespace Application
 
         public bool TryAddUser(User user)
         {
-            return dataBase.TryAddRecord(userConverter.Convert(user));
+            return dataBase.TryAddRecord(userConverter.Convert(user), out var _);
         }
     }
 }
