@@ -14,7 +14,5 @@ namespace Infrastructure.Records
         public BoardContentRecord Content{ get; set; }
         
         public AccessTypeRecord AccessType { get; set; }
-
-        public string AccessInformation;
     }
 }

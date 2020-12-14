@@ -27,10 +27,10 @@ namespace Application.Converters
             switch (record.AccessType)
             {
                 case AccessTypeRecord.Private:
-                    accessParameters = allPossibleAccessServices.Services[AccessType.Private].FromLink(record.AccessInformation);
+                    accessParameters = allPossibleAccessServices.Services[AccessType.Private].FromLink(record.Link);
                     break;
                 case AccessTypeRecord.Public:
-                    accessParameters = allPossibleAccessServices.Services[AccessType.Public].FromLink(record.AccessInformation);
+                    accessParameters = allPossibleAccessServices.Services[AccessType.Public].FromLink(record.Link);
                     break;
                 default:
                     throw new NotImplementedException();
