@@ -4,6 +4,7 @@ using System.Linq;
 using Application;
 using Application.Converters;
 using Domain.Models;
+using Domain.Models.Access;
 using Domain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,24 +28,24 @@ namespace NotesFE.Controllers
             Console.WriteLine(User.Identity.IsAuthenticated);
             if (boardService.TryGetBoard(link, out var board))
             {
-                if (board.IsPublic)
-                {
-                    return View(board);
-                }
-                
-                if (!User.Identity.IsAuthenticated)
-                {
-                    return Redirect("/login");
-                }
-                if (userService.TryGetUser(User.Identity.Name, out var user))
-                {
-                    if (board.HasAccess(user))
-                    {
-                        return View(board);
-                    }
-
-                    return new ForbidResult();
-                }
+                // if (board.IsPublic)
+                // {
+                //     return View(board);
+                // }
+                //
+                // if (!User.Identity.IsAuthenticated)
+                // {
+                //     return Redirect("/login");
+                // }
+                // if (userService.TryGetUser(User.Identity.Name, out var user))
+                // {
+                //     if (board.HasAccess(user))
+                //     {
+                //         return View(board);
+                //     }
+                //
+                //     return new ForbidResult();
+                // }
                 return Redirect("/");
             }
             return NotFound();
@@ -69,6 +70,17 @@ namespace NotesFE.Controllers
         [Route("/new")]
         public IActionResult CreateBoard(BoardModel boardModel)
         {
+            // var res = string.Join("\n\n", boardModel.Content.Stickers.Select(s => s.Content).Select(c =>
+            // {
+            //     var str = c.Text ?? "not text";
+            //     str += "|| TimeTable: \n";
+            //     var tb = c.TimeTable == null
+            //         ? "not table"
+            //         : string.Join("\n", c.TimeTable.Select(r => string.Join(":", r)));
+            //     return str + tb;
+            // }));
+            // return Content($"{boardModel.AccessType}\n{res}\n||| users:{string.Join(",",boardModel.GetLoginsOfAccessedUsers())}");
+            
             var board = Convert(boardModel);
             
             if (boardService.TryAddBoard(board, out var link))
@@ -76,25 +88,23 @@ namespace NotesFE.Controllers
             return Conflict();
         }
 
-        private Board Convert(BoardModel model)
+        private Board Convert(BoardModel boardModel)
         {
             var stickers = new List<Sticker>();
-            foreach (var stickerModel in model.Content.Stickers)
+            foreach (var stickerModel in boardModel.Content.Stickers)
             {
-                var timeTable = new TimeTable(stickerModel.Content.TimeTable.Rows);
-                
-                var stickerContent = new StickerContent(stickerModel.Content.Text, timeTable);
+                var stickerContent = new StickerContent(stickerModel.Content.Text, stickerModel.Content.TimeTable);
                 var sticker = new Sticker(stickerContent);
                 stickers.Add(sticker);
             }
             var boardContent = new BoardContent(stickers);
-
+            
             List<Guid> accessed = null;
-            if (model.AccessType == "Private")
+            if (boardModel.AccessType == "Private")
             {
                 accessed = new List<Guid>();
-
-                foreach (var login in model.GetLoginsOfAccessedUsers())
+            
+                foreach (var login in boardModel.GetLoginsOfAccessedUsers())
                 {
                     if (userService.TryGetUser(login, out var user))
                     {
@@ -102,8 +112,8 @@ namespace NotesFE.Controllers
                     }
                 }
             }
-
-            return new Board(boardContent, accessed);
+            
+            return new Board(boardContent, new PublicAccessParameters());
         }
     }
 }

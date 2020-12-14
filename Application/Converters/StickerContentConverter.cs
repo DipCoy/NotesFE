@@ -7,14 +7,15 @@ namespace Application.Converters
     {
         public StickerContent Convert(StickerContentRecord source)
         {
-            return new StickerContent(source.Text);
+            return new StickerContent(source.Text, source.TimeTable);
         }
 
         public StickerContentRecord Convert(StickerContent source)
         {
             return new StickerContentRecord()
             {
-                Text = source.Text
+                Text = source.Text,
+                TimeTable = source.TimeTable
             };
         }
     }

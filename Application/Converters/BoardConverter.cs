@@ -15,13 +15,9 @@ namespace Application.Converters
         
         private Dictionary<AccessType, IAccessConverter> accessConverters;
 
-        public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter, 
-            PublicAccessConverter publicAccessConverter, 
-            PrivateAccessConverter privateAccessConverter)
+        public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter)
         {
             this.boardContentConverter = boardContentConverter;
-            accessConverters[AccessType.Public] = publicAccessConverter;
-            accessConverters[AccessType.Private] = privateAccessConverter;
         }
 
         public Board Convert(BoardRecord record)
@@ -44,7 +40,7 @@ namespace Application.Converters
         public BoardRecord Convert(Board source)
         {
             AccessTypeRecord accessTypeRecord;
-            switch (source.AccessParameters.GetType())
+            switch (source.AccessParameters.GetAccessType())
             {
                 case AccessType.Private:
                     accessTypeRecord = AccessTypeRecord.Private;

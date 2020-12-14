@@ -1,20 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Domain.Models;
 
-namespace Domain.Models.Access
+namespace Domain.ViewModels.AccessModel
 {
-    public class PrivateAccessParameters : IAccessParameters
+    public class PrivateAccessParametersModel : IAccessParametersModel
     {
         private readonly HashSet<Guid> havingAccess;
 
-        public PrivateAccessParameters(IEnumerable<Guid> whoHasAccess)
+        public PrivateAccessParametersModel(IEnumerable<Guid> whoHasAccess)
         {
             havingAccess = whoHasAccess.ToHashSet();
         }
 
         public bool HasAccess(User user) => havingAccess.Contains(user.Id);
 
-        public AccessType GetAccessType() => AccessType.Private;
+        public AccessTypeModel GetAccessType() => AccessTypeModel.Private;
     }
 }
