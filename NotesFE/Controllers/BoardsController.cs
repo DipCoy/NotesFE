@@ -85,6 +85,7 @@ namespace NotesFE.Controllers
         [Route("/new")]
         public IActionResult CreateBoard(BoardModel boardModel)
         {
+            boardModel.AccessedUsers += $" {User.Identity.Name}"; //TODO
             var board = boardModelConverter.Convert(boardModel);
 
             if (boardService.TryAddBoard(board, out var link))
