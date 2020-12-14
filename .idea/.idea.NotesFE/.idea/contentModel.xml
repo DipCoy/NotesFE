@@ -16,7 +16,6 @@
           <e p="IConverter.cs" t="Include" />
           <e p="StickerContentConverter.cs" t="Include" />
           <e p="StickerConverter.cs" t="Include" />
-          <e p="TimeTableConverter.cs" t="Include" />
           <e p="UserConverter.cs" t="Include" />
         </e>
         <e p="ILinkGenerator.cs" t="Include" />
@@ -60,8 +59,16 @@
           <e p="BoardContent.cs" t="Include" />
           <e p="Sticker.cs" t="Include" />
           <e p="StickerContent.cs" t="Include" />
-          <e p="TimeTable.cs" t="Include" />
           <e p="User.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="AccessModel" t="Include">
+            <e p="AccessTypeModel.cs" t="Include" />
+            <e p="IAccessParametersModel.cs" t="Include" />
+            <e p="OnlyOwnerAccessParametersModel.cs" t="Include" />
+            <e p="PrivateAccessParametersModel.cs" t="Include" />
+            <e p="PublicAccessParametersModel.cs" t="Include" />
+          </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -122,7 +129,6 @@
             <e p="CreateBoard.cshtml" t="Include" />
             <e p="ListBoard.cshtml" t="Include" />
             <e p="ShowMain.cshtml" t="Include" />
-            <e p="ShowMain.cshtml.cs" t="Include" />
           </e>
           <e p="Errors" t="Include">
             <e p="NotFound.cshtml" t="Include" />

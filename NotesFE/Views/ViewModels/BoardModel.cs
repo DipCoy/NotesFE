@@ -7,6 +7,7 @@ namespace Domain.ViewModels
     {
         public BoardContentModel Content { get; set; }
         public string AccessType { get; set; }
+        
         public string[] AccessTypes = new[] {"Public", "Private"};
         public string AccessedUsers { get; set; }
 

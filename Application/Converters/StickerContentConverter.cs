@@ -5,16 +5,9 @@ namespace Application.Converters
 {
     public class StickerContentConverter: IConverter<StickerContentRecord, StickerContent>
     {
-        private readonly IConverter<TimeTableRecord, TimeTable> timeTableConverter;
-
-        public StickerContentConverter(IConverter<TimeTableRecord, TimeTable> timeTableConverter)
-        {
-            this.timeTableConverter = timeTableConverter;
-        }
-
         public StickerContent Convert(StickerContentRecord source)
         {
-            return new StickerContent(source.Text, timeTableConverter.Convert(source.TimeTable));
+            return new StickerContent(source.Text, source.TimeTable);
         }
 
         public StickerContentRecord Convert(StickerContent source)
@@ -22,7 +15,7 @@ namespace Application.Converters
             return new StickerContentRecord()
             {
                 Text = source.Text,
-                TimeTable = timeTableConverter.Convert(source.TimeTable)
+                TimeTable = source.TimeTable
             };
         }
     }

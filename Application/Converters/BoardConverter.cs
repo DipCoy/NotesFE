@@ -12,17 +12,13 @@ namespace Application.Converters
     public class BoardConverter: IConverter<BoardRecord, Board>
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;
-        
-        //private Dictionary<AccessType, IAccessService> accessConverters;
         private AllPossibleAccessServices allPossibleAccessServices;
-
+        
         public BoardConverter(IConverter<BoardContentRecord, BoardContent> boardContentConverter, 
             AllPossibleAccessServices allPossibleAccessServices)
         {
             this.boardContentConverter = boardContentConverter;
             this.allPossibleAccessServices = allPossibleAccessServices;
-            //accessConverters[AccessType.Public] = publicAccessService;
-            //accessConverters[AccessType.Private] = privateAccessService;
         }
 
         public Board Convert(BoardRecord record)
@@ -45,7 +41,7 @@ namespace Application.Converters
         public BoardRecord Convert(Board source)
         {
             AccessTypeRecord accessTypeRecord;
-            switch (source.AccessParameters.GetType())
+            switch (source.AccessParameters.GetAccessType())
             {
                 case AccessType.Private:
                     accessTypeRecord = AccessTypeRecord.Private;

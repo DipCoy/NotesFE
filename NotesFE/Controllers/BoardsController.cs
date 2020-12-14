@@ -28,7 +28,22 @@ namespace NotesFE.Controllers
             Console.WriteLine(User.Identity.IsAuthenticated);
             if (boardService.TryGetBoard(link, out var board))
             {
-                if (board.AccessParameters.GetType() == AccessType.Public)
+                var res = string.Join("\n\n", board.Content.Stickers.Select(s => s.Content).Select(c =>
+                {
+                    var str = c.Text ?? "not text";
+                    str += "|| TimeTable: \n";
+                    var tb = c.TimeTable == null
+                        ? "not table"
+                        : string.Join("\n", c.TimeTable.Select(r => string.Join(":", r)));
+                    return str + tb;
+                }));
+                
+                Console.WriteLine($"{board.AccessParameters.GetAccessType()}\n{res}\n|||");
+                
+                
+                
+                
+                if (board.AccessParameters.GetAccessType() == AccessType.Public)
                 {
                     return View(board);
                 }
@@ -70,6 +85,17 @@ namespace NotesFE.Controllers
         [Route("/new")]
         public IActionResult CreateBoard(BoardModel boardModel)
         {
+            // var res = string.Join("\n\n", boardModel.Content.Stickers.Select(s => s.Content).Select(c =>
+            // {
+            //     var str = c.Text ?? "not text";
+            //     str += "|| TimeTable: \n";
+            //     var tb = c.TimeTable == null
+            //         ? "not table"
+            //         : string.Join("\n", c.TimeTable.Select(r => string.Join(":", r)));
+            //     return str + tb;
+            // }));
+            // return Content($"{boardModel.AccessType}\n{res}\n||| users:{string.Join(",",boardModel.GetLoginsOfAccessedUsers())}");
+            
             var board = Convert(boardModel);
             
             if (boardService.TryAddBoard(board, out var link))
@@ -77,29 +103,19 @@ namespace NotesFE.Controllers
             return Conflict();
         }
 
-        private Board Convert(BoardModel model)
+        private Board Convert(BoardModel boardModel)
         {
             var stickers = new List<Sticker>();
-            foreach (var stickerModel in model.Content.Stickers)
+            foreach (var stickerModel in boardModel.Content.Stickers)
             {
-                TimeTable timeTable;
-                if (stickerModel.Content.TimeTable is null)
-                {
-                    timeTable = new TimeTable(null);
-                }
-                else
-                {
-                    timeTable = new TimeTable(stickerModel.Content.TimeTable.Rows);
-                }
-
-                var stickerContent = new StickerContent(stickerModel.Content.Text, timeTable);
+                var stickerContent = new StickerContent(stickerModel.Content.Text, stickerModel.Content.TimeTable);
                 var sticker = new Sticker(stickerContent);
                 stickers.Add(sticker);
             }
             var boardContent = new BoardContent(stickers);
 
             IAccessParameters accessParameters;
-            switch (model.AccessType)
+            switch (boardModel.AccessType)
             {
                 case "Public":
                     accessParameters = new PublicAccessParameters();
@@ -107,7 +123,7 @@ namespace NotesFE.Controllers
                 case "Private":
                     var accessed = new List<Guid>();
 
-                    foreach (var login in model.GetLoginsOfAccessedUsers())
+                    foreach (var login in boardModel.GetLoginsOfAccessedUsers())
                     {
                         if (userService.TryGetUser(login, out var user))
                         {
@@ -121,6 +137,7 @@ namespace NotesFE.Controllers
             }
 
             return new Board(boardContent, accessParameters);
+
         }
     }
 }

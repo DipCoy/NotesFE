@@ -26,8 +26,7 @@ namespace NotesFE
             services.AddSingleton<IConverter<BoardContentRecord, BoardContent>, BoardContentConverter>();
             services.AddSingleton<IConverter<StickerRecord, Sticker>, StickerConverter>();
             services.AddSingleton<IConverter<StickerContentRecord, StickerContent>, StickerContentConverter>();
-            services.AddSingleton<IConverter<TimeTableRecord, TimeTable>, TimeTableConverter>();
-            
+
             services.AddSingleton<IConverter<UserRecord, User>, UserConverter>();
 
             services.AddSingleton<IConverter<PrivateAccessRecord, PrivateAccessParameters>, PrivateAccessConverter>();
