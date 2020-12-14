@@ -1,10 +1,36 @@
-@model System.Security.Claims.ClaimsPrincipal
 @{
     Layout = "../_layout";
 }
 
+@section Auth {
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <div>
+                <form action="/logout">
+                    @User.Identity.Name
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <form action="/login">
+                <button class="w-80 btn btn-lg btn-light" type="submit">Sign in</button>
+            </form>
+            <form action="/register">
+                <button class="w-80 btn btn-lg btn-primary" type="submit">Sign up</button>
+            </form>
+        }
+    }
+}
+
+<form action="/">
+    <button type="submit" class="btn btn-success">Home</button>
+</form>
+
 <div>
-    <label>StickerText:</label><br />
+    <label>Stickers:</label><br />
     <form method="post">
         <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this);">Для всех</p><br/>
         <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this);">Только для некоторых</p><br/>

@@ -8,7 +8,34 @@
 <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
 
-<div class="fixed-top">
+@section Auth {
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <div>
+                <form action="/logout">
+                    @User.Identity.Name
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <form action="/login">
+                <button class="w-80 btn btn-lg btn-light" type="submit">Sign in</button>
+            </form>
+            <form action="/register">
+                <button class="w-80 btn btn-lg btn-primary" type="submit">Sign up</button>
+            </form>
+        }
+    }
+}
+
+<form action="/">
+    <button type="submit" class="btn btn-success">Home</button>
+</form>
+
+<div>
     <h2>The Board</h2>
     <div class="container">
         @{

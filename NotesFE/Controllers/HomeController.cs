@@ -8,7 +8,6 @@ namespace NotesFE.Controllers
         [Authorize]
         public IActionResult Index()
         {
-            
             return Content(User.Identity.Name);
         }
     }

@@ -2,7 +2,11 @@
     Layout = "../_layout";
 }
 
+
 <body class="text-center">
+<form action="/">
+    <button type="submit" class="btn btn-success">Home</button>
+</form>
 <main class="form-signin">
     <form method="post">
         <h1 class="h3 mb-3 fw-normal">Sign in</h1>
@@ -11,11 +15,11 @@
         <label for="inputPassword" class="visually-hidden">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="password">
         <br><br/>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <button class="w-100 btn btn-lg btn-light" type="submit">Sign in</button>
         <br><br/>
     </form>
     <form action="/register">
-        <button class="w-100 btn btn-lg btn-secondary" type="submit">Sign up</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
     </form>
 </main>
 </body>

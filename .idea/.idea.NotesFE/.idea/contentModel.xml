@@ -111,8 +111,6 @@
         </e>
       </e>
       <e p="NotesFE" t="IncludeRecursive">
-        <e p="Boards-log.db" t="Include" />
-        <e p="Boards.db" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="BoardsController.cs" t="Include" />
@@ -130,7 +128,6 @@
         <e p="Views" t="Include">
           <e p="Account" t="Include">
             <e p="Login.cshtml" t="Include" />
-            <e p="Login1.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
           <e p="Boards" t="Include">

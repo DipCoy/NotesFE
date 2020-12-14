@@ -42,7 +42,6 @@ namespace Domain.ViewModels
                     {
                         if (userService.TryGetUser(login, out var user))
                         {
-                            Console.WriteLine(user.Login);
                             accessed.Add(user.Id);
                         }
                     }
