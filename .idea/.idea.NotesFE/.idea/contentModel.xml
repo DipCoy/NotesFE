@@ -6,20 +6,21 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
-        <e p="Application.csproj.DotSettings" t="Include" />
         <e p="Converters" t="Include">
           <e p="Access" t="Include">
             <e p="PrivateAccessConverter.cs" t="Include" />
           </e>
-          <e p="BoardContentConverter.cs" t="Include" />
-          <e p="BoardConverter.cs" t="Include" />
+          <e p="Board" t="Include">
+            <e p="BoardContentConverter.cs" t="Include" />
+            <e p="BoardConverter.cs" t="Include" />
+            <e p="StickerContentConverter.cs" t="Include" />
+            <e p="StickerConverter.cs" t="Include" />
+          </e>
           <e p="IConverter.cs" t="Include" />
-          <e p="StickerContentConverter.cs" t="Include" />
-          <e p="StickerConverter.cs" t="Include" />
-          <e p="UserConverter.cs" t="Include" />
+          <e p="User" t="Include">
+            <e p="UserConverter.cs" t="Include" />
+          </e>
         </e>
-        <e p="ILinkGenerator.cs" t="Include" />
-        <e p="MD5LinkGenerator.cs" t="Include" />
         <e p="Services" t="Include">
           <e p="Access" t="Include">
             <e p="AllPossibleAccessServices.cs" t="Include" />
@@ -30,6 +31,10 @@
           <e p="Board" t="Include">
             <e p="DefaultBoardService.cs" t="Include" />
             <e p="IBoardService.cs" t="Include" />
+          </e>
+          <e p="Link" t="Include">
+            <e p="ILinkGenerator.cs" t="Include" />
+            <e p="MD5LinkGenerator.cs" t="Include" />
           </e>
           <e p="User" t="Include">
             <e p="DefaultUserService.cs" t="Include" />
@@ -55,19 +60,14 @@
             <e p="PrivateAccessParameters.cs" t="Include" />
             <e p="PublicAccessParameters.cs" t="Include" />
           </e>
-          <e p="Board.cs" t="Include" />
-          <e p="BoardContent.cs" t="Include" />
-          <e p="Sticker.cs" t="Include" />
-          <e p="StickerContent.cs" t="Include" />
-          <e p="User.cs" t="Include" />
-        </e>
-        <e p="ViewModels" t="Include">
-          <e p="AccessModel" t="Include">
-            <e p="AccessTypeModel.cs" t="Include" />
-            <e p="IAccessParametersModel.cs" t="Include" />
-            <e p="OnlyOwnerAccessParametersModel.cs" t="Include" />
-            <e p="PrivateAccessParametersModel.cs" t="Include" />
-            <e p="PublicAccessParametersModel.cs" t="Include" />
+          <e p="Board" t="Include">
+            <e p="Board.cs" t="Include" />
+            <e p="BoardContent.cs" t="Include" />
+            <e p="Sticker.cs" t="Include" />
+            <e p="StickerContent.cs" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="User.cs" t="Include" />
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
@@ -80,21 +80,26 @@
         </e>
       </e>
       <e p="Infrastructure" t="IncludeRecursive">
-        <e p="CollectionNameAttribute.cs" t="Include" />
-        <e p="IDataBaseOperations.cs" t="Include" />
+        <e p="DataBases" t="Include">
+          <e p="IDataBaseOperations.cs" t="Include" />
+          <e p="LiteDBDataBaseOperations.cs" t="Include" />
+        </e>
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
-        <e p="LiteDBDataBaseOperations.cs" t="Include" />
         <e p="Records" t="Include">
           <e p="Access" t="Include">
             <e p="AccessTypeRecord.cs" t="Include" />
             <e p="PrivateAccessRecord.cs" t="Include" />
           </e>
-          <e p="BoardContentRecord.cs" t="Include" />
-          <e p="BoardRecord.cs" t="Include" />
-          <e p="StickerContentRecord.cs" t="Include" />
-          <e p="StickerRecord.cs" t="Include" />
-          <e p="TimeTableRecord.cs" t="Include" />
-          <e p="UserRecord.cs" t="Include" />
+          <e p="Board" t="Include">
+            <e p="BoardContentRecord.cs" t="Include" />
+            <e p="BoardRecord.cs" t="Include" />
+            <e p="StickerContentRecord.cs" t="Include" />
+            <e p="StickerRecord.cs" t="Include" />
+          </e>
+          <e p="CollectionNameAttribute.cs" t="Include" />
+          <e p="User" t="Include">
+            <e p="UserRecord.cs" t="Include" />
+          </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -112,6 +117,9 @@
           <e p="AccountController.cs" t="Include" />
           <e p="BoardsController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Converters" t="Include">
+          <e p="BoardModelConverter.cs" t="Include" />
         </e>
         <e p="NotesFE.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
@@ -134,13 +142,23 @@
             <e p="NotFound.cshtml" t="Include" />
           </e>
           <e p="ViewModels" t="Include">
-            <e p="BoardContentModel.cs" t="Include" />
-            <e p="BoardModel.cs" t="Include" />
-            <e p="LoginModel.cs" t="Include" />
-            <e p="RegisterModel.cs" t="Include" />
-            <e p="StickerContentModel.cs" t="Include" />
-            <e p="StickerModel.cs" t="Include" />
-            <e p="TimeTableModel.cs" t="Include" />
+            <e p="Access" t="Include">
+              <e p="AccessTypeModel.cs" t="Include" />
+              <e p="IAccessParametersModel.cs" t="Include" />
+              <e p="OnlyOwnerAccessParametersModel.cs" t="Include" />
+              <e p="PrivateAccessParametersModel.cs" t="Include" />
+              <e p="PublicAccessParametersModel.cs" t="Include" />
+            </e>
+            <e p="Account" t="Include">
+              <e p="LoginModel.cs" t="Include" />
+              <e p="RegisterModel.cs" t="Include" />
+            </e>
+            <e p="Board" t="Include">
+              <e p="BoardContentModel.cs" t="Include" />
+              <e p="BoardModel.cs" t="Include" />
+              <e p="StickerContentModel.cs" t="Include" />
+              <e p="StickerModel.cs" t="Include" />
+            </e>
           </e>
           <e p="_layout.cshtml" t="Include" />
           <e p="_layout.cshtml.cs" t="Include" />
@@ -160,7 +178,7 @@
           <e p="css" t="Include" />
           <e p="images" t="Include" />
           <e p="js" t="Include">
-            <e p="script.js" t="Include" />
+            <e p="CreateBoard.js" t="Include" />
           </e>
           <e p="sass" t="Include" />
         </e>

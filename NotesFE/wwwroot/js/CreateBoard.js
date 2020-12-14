@@ -1,7 +1,8 @@
 ﻿let count = 0
 
 window.onload = function(){
-    add_btn();
+    add_text_sticker();
+    add_table_sticker();
 }
 
 function delete_input() {
@@ -35,7 +36,20 @@ function select_users_access(radio){
     }
 }
 
-function add_btn(){
+// let stickers = [];
+//
+// function index_all_stickers(){
+//     alert(document.getElementsByName("sticker").length);
+//     document.getElementsByName("sticker").forEach((sticker, index) => 
+//         sticker.setAttribute("name", "boardModel.Content.Stickers[" + index + "].Content.Text"))
+//     /*let stickers = document.getElementsByName("sticker");
+//     for (let i = 0; i < stickers.length; i++){
+//         stickers[i].name = "boardModel.Content.Stickers[" + i + "].Content.Text";
+//         //alert(stickers[i].name);
+//     }*/
+// }
+
+function add_text_sticker(){
     let btn = document.getElementById("add_input");
     let c =  btn.parentElement.childNodes.length;
     btn.onclick = function () {
@@ -47,6 +61,8 @@ function add_btn(){
         let textarea = document.createElement("textarea");
         textarea.className = "form-control";
         textarea.rows = 3;
+        //textarea.name = "sticker"
+        
         textarea.name = "boardModel.Content.Stickers[" + count + "].Content.Text";
         count += 1
         // alert(count)
@@ -66,7 +82,7 @@ function add_btn(){
 }
 
 
-function create_col(text){
+function create_column(text){
     let th = document.createElement("th");
     th.scope="col";
     let text1 = document.createTextNode(text);
@@ -74,7 +90,7 @@ function create_col(text){
     return th;
 }
 
-function add_btn_table(){
+function add_table_sticker(){
     let btn = document.getElementById("add_table");
     let c = btn.parentElement.childNodes.length;
     btn.onclick = function () {
@@ -85,9 +101,9 @@ function add_btn_table(){
         table.className = "table";
         let thead = document.createElement("thead");
         let tr = document.createElement("tr");
-        tr.appendChild(create_col("#"));
-        tr.appendChild(create_col("Время"));
-        tr.appendChild(create_col("Предмет"));
+        tr.appendChild(create_column("#"));
+        tr.appendChild(create_column("Time"));
+        tr.appendChild(create_column("Event"));
         thead.appendChild(tr);
         table.appendChild(thead);
         //--------------------------------------------//

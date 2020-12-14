@@ -1,25 +1,25 @@
+@model System.Security.Claims.ClaimsPrincipal
 @{
     Layout = "../_layout";
 }
 
 <div>
     <label>StickerText:</label><br />
-    
     <form method="post">
         <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this);">Для всех</p><br/>
         <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this);">Только для некоторых</p><br/>
 
         <div>
-            <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_btn();">Добавить стикер</button>
+            <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_text_sticker();">Добавить стикер</button>
         </div>
 
         <div>
-            <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_btn_table();">Добавить расписание</button>
+            <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_table_sticker();">Добавить расписание</button>
         </div>
 
         <div class="mp-2">
             <button type="submit" class="btn btn-success">Submit</button>
         </div>
     </form>
-    <script src="js/script.js"></script>
+    <script src="js/CreateBoard.js"></script>
 </div>

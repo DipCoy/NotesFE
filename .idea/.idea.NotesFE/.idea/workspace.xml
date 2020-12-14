@@ -25,32 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6499c65-f9e6-47c3-82c5-2ae3a5d6ce19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/AccessTypeModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/IAccessParametersModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/OnlyOwnerAccessParametersModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PrivateAccessParametersModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PublicAccessParametersModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/Application.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/Domain.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/NotesFE.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/NotesFETelegramBot.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Application.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Domain.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/NotesFE.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/NotesFETelegramBot.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020,_22_41_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020__22_41__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_12_2020__22_41__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Converters/StickerContentConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/StickerContentConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Converters/TimeTableConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.csproj.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Converters/BoardContentConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/BoardContentConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/BoardConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Converters/StickerContentConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/StickerContentConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Converters/StickerConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/StickerConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Converters/UserConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/User/UserConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ILinkGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/Link/ILinkGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/MD5LinkGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/Link/MD5LinkGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
@@ -61,51 +45,59 @@
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/Access/IAccessParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Access/IAccessParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/Access/OnlyOwnerAccessParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Access/OnlyOwnerAccessParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/Access/PrivateAccessParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Access/PrivateAccessParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/Access/PublicAccessParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Access/PublicAccessParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/StickerContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/StickerContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/TimeTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Board/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/BoardContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Board/BoardContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/Sticker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Board/Sticker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/StickerContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Board/StickerContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/AccessTypeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Access/AccessTypeModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/IAccessParametersModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Access/IAccessParametersModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/OnlyOwnerAccessParametersModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Access/OnlyOwnerAccessParametersModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PrivateAccessParametersModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Access/PrivateAccessParametersModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PublicAccessParametersModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Access/PublicAccessParametersModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/StickerContentRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/StickerContentRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/CollectionNameAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/CollectionNameAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/IDataBaseOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DataBases/IDataBaseOperations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/LiteDBDataBaseOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/BoardContentRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/Board/BoardContentRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/BoardRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/Board/BoardRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/StickerContentRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/Board/StickerContentRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/StickerRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/Board/StickerRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/TimeTableRecord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Records/UserRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Records/User/UserRecord.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Boards-log.db" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Boards-log.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Account/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/ShowMain.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/StickerContentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/StickerContentModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/TimeTableModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/TimeTableModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardContentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Board/BoardContentModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Board/BoardModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/LoginModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Account/LoginModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/RegisterModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Account/RegisterModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/StickerContentModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Board/StickerContentModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/StickerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/ViewModels/Board/StickerModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/ViewModels/TimeTableModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/wwwroot/js/CreateBoard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,10 +143,16 @@
         <option value="$PROJECT_DIR$/Domain/Models/Access/PrivateAccessParameters.cs" />
         <option value="$PROJECT_DIR$/Application/Converters/StickerContentConverter.cs" />
         <option value="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardContentModel.cs" />
+        <option value="$PROJECT_DIR$/Application/Converters/BoardModelConverter.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Startup.cs" />
-        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModelConverter.cs" />
         <option value="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" />
         <option value="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" />
       </list>
     </option>
@@ -168,6 +166,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3500847" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29983062" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -175,6 +175,38 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.NotesFE">
+    <configuration name="Publish NotesFE to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="S1" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
     <configuration name="Telegram.Bot.Examples.WebHook" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -253,6 +285,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Azure - Publish Web App.Publish NotesFE to Azure" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -287,25 +324,97 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1802" height="83" key="GridCell.Tab.0.bottom" timestamp="1607962054203">
+    <state width="1802" height="189" key="GridCell.Tab.0.bottom" timestamp="1607973062526">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="83" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607962054203" />
+    <state width="1802" height="189" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607973062526" />
     <state width="1776" height="49" key="GridCell.Tab.0.bottom/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="83" key="GridCell.Tab.0.center" timestamp="1607962054203">
+    <state width="1802" height="189" key="GridCell.Tab.0.center" timestamp="1607973062526">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="83" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607962054203" />
+    <state width="1802" height="189" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607973062526" />
     <state width="1776" height="49" key="GridCell.Tab.0.center/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="83" key="GridCell.Tab.0.left" timestamp="1607962054203">
+    <state width="1802" height="189" key="GridCell.Tab.0.left" timestamp="1607973062526">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="83" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607962054203" />
+    <state width="1802" height="189" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607973062526" />
     <state width="1776" height="49" key="GridCell.Tab.0.left/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="83" key="GridCell.Tab.0.right" timestamp="1607962054203">
+    <state width="1802" height="189" key="GridCell.Tab.0.right" timestamp="1607973062526">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="83" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607962054203" />
+    <state width="1802" height="189" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607973062526" />
     <state width="1776" height="49" key="GridCell.Tab.0.right/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
+    <state width="1802" height="267" key="GridCell.Tab.1.bottom" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.1.center" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.1.left" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.1.right" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.2.bottom" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.2.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.2.center" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.2.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.2.left" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.2.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.2.right" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.2.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.3.bottom" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.3.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.3.center" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.3.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.3.left" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.3.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.3.right" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.3.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.4.bottom" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.4.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.4.center" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.4.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.4.left" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.4.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state width="1802" height="267" key="GridCell.Tab.4.right" timestamp="1607965925450">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="267" key="GridCell.Tab.4.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607965925450" />
+    <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog" timestamp="1607968868777">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607968868777" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1607968152307">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607968152307" />
   </component>
 </project>

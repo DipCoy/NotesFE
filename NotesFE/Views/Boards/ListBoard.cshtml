@@ -14,17 +14,50 @@
         @{
             foreach (var sticker in Model.Content.Stickers)
             {
-                <div class="align-baseline">
-                    <div class="col-4 themed-grid-col">
+                if (sticker.Content.Text != null)
+                {
+                    <div class="align-baseline">
+                        <div class="col-4 themed-grid-col">
                             <div class="p-3 border bg-light">
                                 @sticker.Content.Text
                             </div>
+                        </div>
                     </div>
-                </div>
-                <br>
+                    <br>
+                }
+                else if (sticker.Content.TimeTable != null)
+                {
+                    var table = sticker.Content.TimeTable;
+                    <div class="align-baseline">
+                    <div class="col-4 themed-grid-col">
+                        <div class="p-3 border bg-light">
+                            <table border="2">
+                                @{
+                                    foreach (var row in table)
+                                    {
+                                        <tr>
+                                            @{
+                                                foreach (var cell in row)
+                                                {
+                                                    if (cell == null)
+                                                    {
+                                                        continue;
+                                                    }
+                                                    <td>
+                                                        @cell
+                                                    </td>
+                                                }
+                                            }
+                                        </tr>
+                                    }
+                                }
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                    <br>
+                }
             }
-            
-            
         }
     </div>
     
