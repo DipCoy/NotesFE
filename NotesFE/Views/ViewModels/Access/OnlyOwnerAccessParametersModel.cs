@@ -1,7 +1,7 @@
 using System;
-using Domain.Models;
+using Domain.Models.User;
 
-namespace Domain.ViewModels.AccessModel
+namespace NotesFE.Views.ViewModels.Access
 {
     public class OnlyOwnerAccessParametersModel : IAccessParametersModel
     {

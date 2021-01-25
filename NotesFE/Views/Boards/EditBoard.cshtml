@@ -1,0 +1,81 @@
+@using Domain.Models.Access
+@using Infrastructure.Records.Access
+@model Domain.Models.Board.Board
+
+@{
+    Layout = "../_layout";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
+
+@section Auth {
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <div>
+                <form action="/logout">
+                    @User.Identity.Name
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <form action="/login">
+                <button class="w-80 btn btn-lg btn-light" type="submit">Sign in</button>
+            </form>
+            <form action="/register">
+                <button class="w-80 btn btn-lg btn-primary" type="submit">Sign up</button>
+            </form>
+        }
+    }
+}
+
+<form action="/">
+    <button type="submit" class="btn btn-success">Home</button>
+</form>
+
+<script src="../js/EditBoard.js"></script>
+
+<div>
+    <form method="post">
+        @{
+            var users = "";
+            if (Model.AccessParameters.GetAccessType() == AccessType.Private)
+            {
+                users = string.Join(" ", ((PrivateAccessParameters) Model.AccessParameters).HavingAccess);
+            }
+        }
+        <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this, '');">Для всех</p><br/>
+        <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this, '@users');">Только для некоторых</p><br/>
+
+        @{
+            var countC = 0;
+            foreach (var sticker in Model.Content.Stickers)
+            {
+                if (sticker.Content.Text != null)
+                {
+                    var name = "boardModel.Content.Stickers[" + countC + "].Content.Text";
+                    <textarea name='@name' cols="40" rows="3">@sticker.Content.Text</textarea>
+                }
+
+
+                countC++;
+            }
+        }
+        <script>count = @countC</script>
+        <div>
+            <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_text_sticker();">Добавить стикер</button>
+        </div>
+
+        <div>
+            <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_table_sticker();">Добавить расписание</button>
+        </div>
+
+        <div class="mp-2">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</div>

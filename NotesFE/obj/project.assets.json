@@ -93,19 +93,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dipcoy/.nuget/packages/": {}
+    "/home/artem/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
+      "projectUniqueName": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
       "projectName": "NotesFE",
-      "projectPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/NotesFE.csproj",
-      "packagesPath": "/home/dipcoy/.nuget/packages/",
-      "outputPath": "/home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/",
+      "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
+      "packagesPath": "/home/artem/.nuget/packages/",
+      "outputPath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dipcoy/.nuget/NuGet/NuGet.Config"
+        "/home/artem/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -116,8 +116,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj": {
-              "projectPath": "/home/dipcoy/RiderProjects/NotesFE/Application/Application.csproj"
+            "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj": {
+              "projectPath": "/home/artem/Рабочий стол/C#/NotesFE/Application/Application.csproj"
             }
           }
         }
@@ -148,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
   }

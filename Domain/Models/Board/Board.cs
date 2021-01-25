@@ -1,10 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.Linq;
 using Domain.Models.Access;
 
-namespace Domain.Models
+namespace Domain.Models.Board
 {
     public class Board//entity
     {

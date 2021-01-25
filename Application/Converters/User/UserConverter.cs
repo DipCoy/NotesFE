@@ -1,13 +1,12 @@
-using Domain.Models;
-using Infrastructure.Records;
+using Infrastructure.Records.User;
 
-namespace Application.Converters
+namespace Application.Converters.User
 {
-    public class UserConverter : IConverter<UserRecord, User>
+    public class UserConverter : IConverter<UserRecord, Domain.Models.User.User>
     {
-        public User Convert(UserRecord source)
+        public Domain.Models.User.User Convert(UserRecord source)
         {
-            return new User()
+            return new Domain.Models.User.User()
             {
                 Id = source.Id,
                 Login = source.Login,
@@ -15,7 +14,7 @@ namespace Application.Converters
             };
         }
 
-        public UserRecord Convert(User source)
+        public UserRecord Convert(Domain.Models.User.User source)
         {
             return new UserRecord()
             {

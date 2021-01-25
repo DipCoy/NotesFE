@@ -1,7 +1,7 @@
 using System;
 using LiteDB;
 
-namespace Infrastructure.Records
+namespace Infrastructure.Records.User
 {
     [CollectionName("users")]
     public class UserRecord

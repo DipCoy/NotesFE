@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using Application;
 using Application.Converters;
+using Application.Services.User;
 using Domain.Models;
 using Domain.Models.Access;
+using Domain.Models.Board;
+using NotesFE.Views.ViewModels.Board;
 
-namespace Domain.ViewModels
+namespace NotesFE.Converters
 {
     public class BoardModelConverter : IConverter<BoardModel, Board>
     {

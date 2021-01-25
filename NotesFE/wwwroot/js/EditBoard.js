@@ -14,7 +14,7 @@ function delete_input() {
     }
 }
 
-function select_users_access(radio){
+function select_users_access(radio, users=''){
     if(radio.value === "Private") {
         let textarea = document.getElementById("AccessedUsers");
         if (textarea != null){
@@ -24,6 +24,7 @@ function select_users_access(radio){
         textarea = document.createElement("textarea");
         textarea.id = "AccessedUsers"
         textarea.className = "form-control";
+        textarea.innerText = users;
         textarea.rows = 3;
         textarea.name = "boardModel.AccessedUsers";
         rb.before(textarea);   
@@ -143,5 +144,8 @@ function add_table_sticker(){
         div2.append(b);
         btn.before(div);
     }
+}
 
+function hello(){
+    alert();
 }

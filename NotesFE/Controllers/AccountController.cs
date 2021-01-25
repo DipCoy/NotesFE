@@ -4,11 +4,13 @@ using System.Net.Security;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Application;
+using Application.Services.User;
 using Domain.Models;
-using Domain.ViewModels;
+using Domain.Models.User;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using NotesFE.Views.ViewModels.Account;
 
 namespace NotesFE.Controllers
 {

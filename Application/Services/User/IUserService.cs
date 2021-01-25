@@ -1,10 +1,8 @@
-using Domain.Models;
-
-namespace Application
+namespace Application.Services.User
 {
     public interface IUserService
     {
-        public bool TryGetUser(string login, out User user);
-        public bool TryAddUser(User user);
+        public bool TryGetUser(string login, out Domain.Models.User.User user);
+        public bool TryAddUser(Domain.Models.User.User user);
     }
 }

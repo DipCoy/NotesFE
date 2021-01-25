@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-
-namespace Infrastructure.Records
+namespace Infrastructure.Records.Board
 {
     public class StickerRecord
     {

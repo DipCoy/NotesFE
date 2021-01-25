@@ -1,8 +1,6 @@
-using System;
 using Domain.Models.Access;
-using Infrastructure;
 
-namespace Application.Converters.Access
+namespace Application.Services.Access
 {
     public class PublicAccessService : IAccessService
     {

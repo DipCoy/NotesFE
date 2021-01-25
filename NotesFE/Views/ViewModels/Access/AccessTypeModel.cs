@@ -1,4 +1,4 @@
-namespace Domain.ViewModels.AccessModel
+namespace NotesFE.Views.ViewModels.Access
 {
     public enum AccessTypeModel
     {

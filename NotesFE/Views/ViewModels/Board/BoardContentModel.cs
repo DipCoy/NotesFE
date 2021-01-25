@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using Domain.Models;
 
-namespace Domain.ViewModels
+namespace NotesFE.Views.ViewModels.Board
 {
     public class BoardContentModel
     {

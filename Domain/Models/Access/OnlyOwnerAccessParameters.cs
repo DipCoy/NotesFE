@@ -6,12 +6,12 @@ namespace Domain.Models.Access
     {
         private readonly Guid owner;
 
-        public OnlyOwnerAccessParameters(User owner)
+        public OnlyOwnerAccessParameters(User.User owner)
         {
             this.owner = owner.Id;
         }
 
-        public bool HasAccess(User user) => user.Id == owner;
+        public bool HasAccess(User.User user) => user.Id == owner;
 
         public AccessType GetAccessType() => AccessType.Owner;
     }

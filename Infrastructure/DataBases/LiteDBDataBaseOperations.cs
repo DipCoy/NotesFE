@@ -1,9 +1,12 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
+using Infrastructure.Records;
+using Infrastructure.Records.Board;
+using Infrastructure.Records.Access;
 using LiteDB;
 
-namespace Infrastructure
+namespace Infrastructure.DataBases
 {
     public class LiteDBDataBaseOperations : IDataBaseOperations
     {
@@ -38,6 +41,32 @@ namespace Infrastructure
             catch
             {
                 guid = default;
+                return false;
+            }
+        }
+
+        public bool TryDeleteBoard(string link)
+        {
+            try
+            {
+                var accessType = database
+                    .GetCollection<BoardRecord>("boards")
+                    .FindOne(r => r.Link == link)
+                    .AccessType;
+                database
+                    .GetCollection<BoardRecord>("boards")
+                    .DeleteMany(r => r.Link == link);
+                if (accessType == AccessTypeRecord.Private)
+                {
+                    database
+                        .GetCollection<PrivateAccessRecord>("privates")
+                        .DeleteMany(r => r.Link == link);
+                }
+
+                return true;
+            }
+            catch
+            {
                 return false;
             }
         }

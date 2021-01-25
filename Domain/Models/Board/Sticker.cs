@@ -1,4 +1,4 @@
-namespace Domain.Models
+namespace Domain.Models.Board
 {
     public class Sticker//value-type
     {

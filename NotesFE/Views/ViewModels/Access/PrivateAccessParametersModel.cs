@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Domain.Models;
+using Domain.Models.User;
 
-namespace Domain.ViewModels.AccessModel
+namespace NotesFE.Views.ViewModels.Access
 {
     public class PrivateAccessParametersModel : IAccessParametersModel
     {

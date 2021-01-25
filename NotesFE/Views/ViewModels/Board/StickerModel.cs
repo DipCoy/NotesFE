@@ -1,4 +1,4 @@
-namespace Domain.ViewModels
+namespace NotesFE.Views.ViewModels.Board
 {
     public class StickerModel
     {

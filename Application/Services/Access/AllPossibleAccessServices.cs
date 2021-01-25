@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using Domain.Models.Access;
-using Infrastructure;
+using Infrastructure.DataBases;
 
-namespace Application.Converters.Access
+namespace Application.Services.Access
 {
     public class AllPossibleAccessServices
     {

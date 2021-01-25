@@ -14,7 +14,7 @@ namespace Domain.Models.Access
             havingAccess = whoHasAccess.ToHashSet();
         }
 
-        public bool HasAccess(User user) => havingAccess.Contains(user.Id);
+        public bool HasAccess(User.User user) => havingAccess.Contains(user.Id);
 
         public AccessType GetAccessType() => AccessType.Private;
     }

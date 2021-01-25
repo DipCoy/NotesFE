@@ -1,7 +1,7 @@
-using Domain.Models;
-using Infrastructure.Records;
+using Domain.Models.Board;
+using Infrastructure.Records.Board;
 
-namespace Application.Converters
+namespace Application.Converters.Board
 {
     public class StickerConverter: IConverter<StickerRecord, Sticker>
     {

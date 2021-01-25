@@ -1,9 +1,8 @@
 using System;
-using System.Collections.Generic;
 using Infrastructure.Records.Access;
 using LiteDB;
 
-namespace Infrastructure.Records
+namespace Infrastructure.Records.Board
 {
     [CollectionName("boards")]
     public class BoardRecord

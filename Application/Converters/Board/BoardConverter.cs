@@ -1,15 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using Application.Converters.Access;
-using Domain.Models;
+using Application.Services.Access;
 using Domain.Models.Access;
-using Infrastructure.Records;
+using Domain.Models.Board;
 using Infrastructure.Records.Access;
+using Infrastructure.Records.Board;
 
-namespace Application.Converters
+namespace Application.Converters.Board
 {
-    public class BoardConverter: IConverter<BoardRecord, Board>
+    public class BoardConverter: IConverter<BoardRecord, Domain.Models.Board.Board>
     {
         private readonly IConverter<BoardContentRecord, BoardContent> boardContentConverter;
         private AllPossibleAccessServices allPossibleAccessServices;
@@ -21,7 +19,7 @@ namespace Application.Converters
             this.allPossibleAccessServices = allPossibleAccessServices;
         }
 
-        public Board Convert(BoardRecord record)
+        public Domain.Models.Board.Board Convert(BoardRecord record)
         {
             IAccessParameters accessParameters;
             switch (record.AccessType)
@@ -35,10 +33,10 @@ namespace Application.Converters
                 default:
                     throw new NotImplementedException();
             }
-            return new Board(boardContentConverter.Convert(record.Content), accessParameters);
+            return new Domain.Models.Board.Board(boardContentConverter.Convert(record.Content), accessParameters);
         }
 
-        public BoardRecord Convert(Board source)
+        public BoardRecord Convert(Domain.Models.Board.Board source)
         {
             AccessTypeRecord accessTypeRecord;
             switch (source.AccessParameters.GetAccessType())

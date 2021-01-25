@@ -1,9 +1,9 @@
 using System;
 using Domain.Models.Access;
-using Infrastructure;
+using Infrastructure.DataBases;
 using Infrastructure.Records.Access;
 
-namespace Application.Converters.Access
+namespace Application.Services.Access
 {
     public class PrivateAccessService : IAccessService
     {

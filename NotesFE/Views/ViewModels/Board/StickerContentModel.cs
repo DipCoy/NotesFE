@@ -1,7 +1,6 @@
-using System;
 using System.Collections.Generic;
 
-namespace Domain.ViewModels
+namespace NotesFE.Views.ViewModels.Board
 {
     public class StickerContentModel
     {

@@ -1,8 +1,7 @@
 using System.Linq;
 using System.Security.Cryptography;
 
-
-namespace Application
+namespace Application.Services.Link
 {
     public class MD5LinkGenerator : ILinkGenerator
     {

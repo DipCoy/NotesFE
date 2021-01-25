@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Domain.ViewModels
+namespace NotesFE.Views.ViewModels.Account
 {
     public class RegisterModel
     {
