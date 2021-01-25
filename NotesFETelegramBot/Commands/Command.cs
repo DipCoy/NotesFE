@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace NotesFETelegramBot.Models.Commands
+namespace NotesFETelegramBot.Commands
 {
     public abstract class Command
     {

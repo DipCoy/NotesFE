@@ -111,6 +111,7 @@
         </e>
       </e>
       <e p="NotesFE" t="IncludeRecursive">
+        <e p="Boards.db" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="BoardsController.cs" t="Include" />
@@ -176,31 +177,28 @@
           <e p="images" t="Include" />
           <e p="js" t="Include">
             <e p="CreateBoard.js" t="Include" />
+            <e p="script.js" t="Include" />
           </e>
           <e p="sass" t="Include" />
         </e>
       </e>
       <e p="NotesFE.sln" t="IncludeFlat" />
       <e p="NotesFETelegramBot" t="IncludeRecursive">
+        <e p="AppSettings.cs" t="Include" />
+        <e p="Bot.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="Command.cs" t="Include" />
+          <e p="HelloCommand.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
           <e p="MessageController.cs" t="Include" />
-        </e>
-        <e p="Models" t="Include">
-          <e p="AppSettings.cs" t="Include" />
-          <e p="Bot.cs" t="Include" />
-          <e p="Commands" t="Include">
-            <e p="Command.cs" t="Include" />
-            <e p="HelloCommand.cs" t="Include" />
-          </e>
-          <e p="ErrorViewModel.cs" t="Include" />
         </e>
         <e p="NotesFETelegramBot.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
-        <e p="Startup.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />

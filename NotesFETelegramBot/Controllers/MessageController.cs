@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Telegram.Bot;
 using Telegram.Bot.Types;
-using NotesFETelegramBot.Models;
+using NotesFETelegramBot;
 
 namespace NotesFETelegramBot.Controllers
 {

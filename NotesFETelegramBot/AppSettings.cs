@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace NotesFETelegramBot.Models
+namespace NotesFETelegramBot
 {
     public static class AppSettings
     {
