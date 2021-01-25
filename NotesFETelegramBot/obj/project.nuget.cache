@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8RlsBH91cKGo7A88GDie/XX69fC9e33UAFg+f01BAksSS2djyS8mhJKgi2KpJK/t2/FQxTfj01J1y2uWfplvGw==",
+  "dgSpecHash": "PJE5tMwFDYoNwBUHf2FmFcxPHzpuqqmeaM3b+EuncSy6lyqt1Pac6nyUYJUf7GO1GRun7ECjrUTJ3UCWe5+wGw==",
   "success": true,
   "projectFilePath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFETelegramBot/NotesFETelegramBot.csproj",
   "expectedPackageFiles": [
-    "/home/artem/.nuget/packages/litedb/5.0.9/litedb.5.0.9.nupkg.sha512",
+    "/home/artem/.nuget/packages/litedb/5.0.10/litedb.5.0.10.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.aspnet.webapi/5.2.7/microsoft.aspnet.webapi.5.2.7.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.aspnet.webapi.client/5.2.7/microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.aspnet.webapi.core/5.2.7/microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
@@ -89,12 +89,6 @@
     "/home/artem/.nuget/packages/telegram.bot/15.7.1/telegram.bot.15.7.1.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/artem/Рабочий стол/C#/NotesFE/NotesFETelegramBot/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

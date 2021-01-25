@@ -1,21 +1,3 @@
-D:/Документы/!GitHub/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
-D:/Документы/!GitHub/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
-D:/Документы/!GitHub/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfoInputs.cache
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfo.cs
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
-D:/Документы/!GitHub/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfoInputs.cache
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfo.cs
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
-/home/dipcoy/RiderProjects/NotesFE/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
 /home/artem/Рабочий стол/C#/NotesFE/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb

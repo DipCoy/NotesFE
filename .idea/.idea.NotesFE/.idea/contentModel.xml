@@ -202,15 +202,10 @@
       <e p="NotesFE.sln" t="IncludeFlat" />
       <e p="NotesFETelegramBot" t="IncludeRecursive">
         <e p="AppSettings.cs" t="Include" />
-        <e p="Bot.cs" t="Include" />
         <e p="BotService.cs" t="Include" />
         <e p="Commands" t="Include">
           <e p="Command.cs" t="Include" />
           <e p="HelloCommand.cs" t="Include" />
-        </e>
-        <e p="Controllers" t="Include">
-          <e p="HomeController.cs" t="Include" />
-          <e p="MessageController.cs" t="Include" />
         </e>
         <e p="IBotService.cs" t="Include" />
         <e p="NotesFETelegramBot.csproj" t="IncludeRecursive" />

@@ -3,11 +3,11 @@
 @{
     Layout = "../_layout";
 }
-
+ 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
-
+ 
 @section Auth {
     @{
         if (User.Identity.IsAuthenticated)
@@ -30,11 +30,11 @@
         }
     }
 }
-
+ 
 <form action="/">
     <button type="submit" class="btn btn-success">Home</button>
 </form>
-
+ 
 <div>
     <h2>The Board</h2>
     <div class="container">
@@ -56,26 +56,30 @@
                 {
                     var table = sticker.Content.TimeTable;
                     <div class="align-baseline">
-                    <div class="col-4 themed-grid-col">
-                        <div class="p-3 border bg-light">
+                    <div class="col-2 themed-grid-col">
+                        <!--<div class="p-3 border bg-light">-->
+                        <div class="table table-dark table-striped">
                             <table border="2">
                                 @{
                                     foreach (var row in table)
                                     {
-                                        <tr>
-                                            @{
-                                                foreach (var cell in row)
-                                                {
-                                                    if (cell == null)
+                                        if (row.Any(x => x != null))
+                                        {
+                                            <tr>
+                                                @{
+                                                    foreach (var cell in row)
                                                     {
-                                                        continue;
+                                                        if (cell == null)
+                                                        {
+                                                            continue;
+                                                        }
+                                                        <td>
+                                                            @cell
+                                                        </td>
                                                     }
-                                                    <td>
-                                                        @cell
-                                                    </td>
                                                 }
-                                            }
-                                        </tr>
+                                            </tr>
+                                        }
                                     }
                                 }
                             </table>
@@ -87,10 +91,8 @@
             }
         }
     </div>
-    
-        
+
     <form action="@Context.Request.Path.ToString().Replace("board", "edit")" method="get">
        <button>EDIT</button>
       </form>
-    
 </div>

@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pzDac0tdK0/fcLt/ZmfhfSqOn5AaFw9Peu0mStHcPDnDWePuw4NC8okJ3D+Q+rtQ0ZZ9VbxgkWIn9jgqw3dvHw==",
+  "dgSpecHash": "Loi4hUXAHoz/Z7tlD8OXv39fbGyMA/U8KETzuZK/GAgLob+CAlwDVMswD5Mg0/7UxkGIgzDH7tPANm+EiiR0SQ==",
   "success": true,
   "projectFilePath": "/home/artem/Рабочий стол/C#/NotesFE/NotesFE/NotesFE.csproj",
   "expectedPackageFiles": [
-    "/home/artem/.nuget/packages/litedb/5.0.9/litedb.5.0.9.nupkg.sha512"
+    "/home/artem/.nuget/packages/litedb/5.0.10/litedb.5.0.10.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

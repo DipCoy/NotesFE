@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:/Документы/!GitHub/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/appsettings.Development.json
 D:/Документы/!GitHub/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/appsettings.json
 D:/Документы/!GitHub/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -83,7 +84,6 @@ D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.ge
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.genruntimeconfig.cache
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
 /home/dipcoy/RiderProjects/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs
-<<<<<<< HEAD
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/appsettings.json
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -133,3 +133,7 @@ D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.ge
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Error/BoardForbidden.cshtml.g.cs
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Error/BoardNotFound.cshtml.g.cs
 /home/artem/Рабочий стол/C#/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/EditBoard.cshtml.g.cs
+D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs
+D:/Документы/!GitHub/NotesFE/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/_layout.cshtml.g.cs
+>>>>>>> ec1f83881fa61c5d96330edb9cb09439146475ce

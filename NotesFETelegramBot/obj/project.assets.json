@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "LiteDB/5.0.9": {
+      "LiteDB/5.0.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/LiteDB.dll": {}
@@ -1352,7 +1352,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "LiteDB": "5.0.9"
+          "LiteDB": "5.0.10"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -1364,10 +1364,10 @@
     }
   },
   "libraries": {
-    "LiteDB/5.0.9": {
-      "sha512": "cWnNWXL+qaP/qrkUCYZHBUJcv+IsfJfofa+Ed4EyT0zs/gkXqfKvjTbS3uSMBfcd9I7Yf+q9YPmCpmVFrVGQtw==",
+    "LiteDB/5.0.10": {
+      "sha512": "x70WuqMDuP75dajqSLvO+AnI/BbwS6da+ukTO7rueV7VoXoQ5CRA9FV4r7cOS4OUr2NS1Up7LDIutjCxQycRvg==",
       "type": "package",
-      "path": "litedb/5.0.9",
+      "path": "litedb/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1380,7 +1380,7 @@
         "lib/netstandard1.3/LiteDB.xml",
         "lib/netstandard2.0/LiteDB.dll",
         "lib/netstandard2.0/LiteDB.xml",
-        "litedb.5.0.9.nupkg.sha512",
+        "litedb.5.0.10.nupkg.sha512",
         "litedb.nuspec"
       ]
     },
@@ -4984,12 +4984,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/artem/Рабочий стол/C#/NotesFE/NotesFETelegramBot/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
