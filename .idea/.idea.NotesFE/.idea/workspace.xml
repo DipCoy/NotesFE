@@ -26,55 +26,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6499c65-f9e6-47c3-82c5-2ae3a5d6ce19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Boards-log.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boards.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/BotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/IBotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllServices/AllServices.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AllServices/AllServices.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllServices/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllServices/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/NotesFE.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Controllers/MessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Controllers/MessageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Models/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/AppSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Models/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Bot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Models/Commands/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Commands/Command.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Models/Commands/HelloCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Commands/HelloCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Startup.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/NotesFETelegramBot.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/BotConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/BotConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Services/BotService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Services/BotService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +76,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AllServices/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AllServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2D1FC91-A333-45D6-B967-ACDEC2719FDF/7/RouterMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
@@ -110,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Domain/Models/Access/IAccessParameters.cs" />
-        <option value="$PROJECT_DIR$/Domain/Models/Access/OnlyOwnerAccessParameters.cs" />
-        <option value="$PROJECT_DIR$/Domain/Models/Access/PublicAccessParameters.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/AccessTypeModel.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PublicAccessParametersModel.cs" />
         <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/IAccessParametersModel.cs" />
@@ -130,7 +111,6 @@
         <option value="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardContentModel.cs" />
         <option value="$PROJECT_DIR$/Application/Converters/BoardModelConverter.cs" />
-        <option value="$PROJECT_DIR$/NotesFE/Startup.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModelConverter.cs" />
         <option value="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" />
         <option value="$PROJECT_DIR$/Application/Converters/Board/BoardConverter.cs" />
@@ -143,7 +123,6 @@
         <option value="$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Account/Login.cshtml" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Account/Register.cshtml" />
-        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Boards/ShowMain.cshtml" />
         <option value="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Services/BotService.cs" />
         <option value="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/BotConfiguration.cs" />
@@ -155,10 +134,17 @@
         <option value="$PROJECT_DIR$/NotesFETelegramBot/Controllers/MessageController.cs" />
         <option value="$PROJECT_DIR$/NotesFETelegramBot/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/NotesFETelegramBot/Bot.cs" />
-        <option value="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" />
         <option value="$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" />
         <option value="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Program.cs" />
         <option value="$PROJECT_DIR$/AllServices/Program.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Startup.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/IBotService.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Startup.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
+        <option value="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/BotService.cs" />
       </list>
     </option>
   </component>
@@ -183,7 +169,7 @@
     <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.NotesFE">
+  <component name="RunManager" selected=".NET Project.AllServices">
     <configuration name="Publish NotesFE to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
       <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
@@ -433,7 +419,7 @@
       <workItem from="1607940234668" duration="10240000" />
       <workItem from="1611518371405" duration="1484000" />
       <workItem from="1611572372155" duration="3136000" />
-      <workItem from="1611576949574" duration="3426000" />
+      <workItem from="1611576949574" duration="22332000" />
     </task>
     <servers />
   </component>
@@ -462,33 +448,33 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="586" y="219" width="800" height="684" key="#Deployment/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611519224819" />
-    <state x="751" y="376" width="643" height="362" key="#Docker" timestamp="1611577049319">
+    <state x="751" y="376" width="643" height="362" key="#Docker" timestamp="1611582699188">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="751" y="376" width="643" height="362" key="#Docker/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611577049319" />
+    <state x="751" y="376" width="643" height="362" key="#Docker/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611582699188" />
     <state x="690" y="355" width="627" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607975707822">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="690" y="355" width="627" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607975707822" />
-    <state width="1802" height="97" key="GridCell.Tab.0.bottom" timestamp="1611517940702">
+    <state width="1802" height="455" key="GridCell.Tab.0.bottom" timestamp="1611603778861">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="97" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611517940702" />
+    <state width="1802" height="455" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
     <state width="1776" height="49" key="GridCell.Tab.0.bottom/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="97" key="GridCell.Tab.0.center" timestamp="1611517940702">
+    <state width="1802" height="455" key="GridCell.Tab.0.center" timestamp="1611603778861">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="97" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611517940702" />
+    <state width="1802" height="455" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
     <state width="1776" height="49" key="GridCell.Tab.0.center/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="97" key="GridCell.Tab.0.left" timestamp="1611517940702">
+    <state width="1802" height="455" key="GridCell.Tab.0.left" timestamp="1611603778860">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="97" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611517940702" />
+    <state width="1802" height="455" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778860" />
     <state width="1776" height="49" key="GridCell.Tab.0.left/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
-    <state width="1802" height="97" key="GridCell.Tab.0.right" timestamp="1611517940702">
+    <state width="1802" height="455" key="GridCell.Tab.0.right" timestamp="1611603778861">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="97" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611517940702" />
+    <state width="1802" height="455" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
     <state width="1776" height="49" key="GridCell.Tab.0.right/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
     <state width="1802" height="346" key="GridCell.Tab.1.bottom" timestamp="1607976734714">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -554,18 +540,18 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="346" key="GridCell.Tab.4.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734730" />
-    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1611578756766">
+    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1611580802148">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611578756766" />
+    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611580802148" />
     <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog" timestamp="1607968868777">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607968868777" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1611576479420">
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1611582662858">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611576479420" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611582662858" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1607968152307">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

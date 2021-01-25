@@ -5,4 +5,9 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\NotesFETelegramBot\NotesFETelegramBot.csproj" />
+      <ProjectReference Include="..\NotesFE\NotesFE.csproj" />
+    </ItemGroup>
+
 </Project>

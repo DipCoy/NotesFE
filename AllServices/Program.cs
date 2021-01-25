@@ -1,5 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Threading;
+using NotesFE;
+using NotesFETelegramBot;
 
 namespace AllServices
 {
@@ -7,8 +9,12 @@ namespace AllServices
     {
         static void Main(string[] args)
         {
-            var web = new ProcessStartInfo();
-            web.
+            var web = new Thread(x => NotesFE.Program.Main(args));
+            var tg = new Thread(x => NotesFETelegramBot.Program.Main());
+            web.Start();
+            tg.Start();
+            web.Join();
+            tg.Join();
         }
     }
 }
