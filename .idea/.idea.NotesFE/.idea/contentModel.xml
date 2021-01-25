@@ -4,6 +4,18 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_NotesFE.1746268301.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AllServices" t="IncludeRecursive">
+        <e p="AllServices.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AllServices.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
         <e p="Converters" t="Include">
@@ -189,19 +201,18 @@
       </e>
       <e p="NotesFE.sln" t="IncludeFlat" />
       <e p="NotesFETelegramBot" t="IncludeRecursive">
+        <e p="AppSettings.cs" t="Include" />
+        <e p="Bot.cs" t="Include" />
+        <e p="BotService.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="Command.cs" t="Include" />
+          <e p="HelloCommand.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
           <e p="MessageController.cs" t="Include" />
         </e>
-        <e p="Models" t="Include">
-          <e p="AppSettings.cs" t="Include" />
-          <e p="Bot.cs" t="Include" />
-          <e p="Commands" t="Include">
-            <e p="Command.cs" t="Include" />
-            <e p="HelloCommand.cs" t="Include" />
-          </e>
-          <e p="ErrorViewModel.cs" t="Include" />
-        </e>
+        <e p="IBotService.cs" t="Include" />
         <e p="NotesFETelegramBot.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -218,33 +229,6 @@
             </e>
           </e>
         </e>
-      </e>
-      <e p="Telegram.Bot.Examples.WebHook" t="IncludeRecursive">
-        <e p="BotConfiguration.cs" t="Include" />
-        <e p="Controllers" t="Include">
-          <e p="UpdateController.cs" t="Include" />
-        </e>
-        <e p="Program.cs" t="Include" />
-        <e p="README.md" t="Include" />
-        <e p="Services" t="Include">
-          <e p="BotService.cs" t="Include" />
-          <e p="IBotService.cs" t="Include" />
-          <e p="IUpdateService.cs" t="Include" />
-          <e p="UpdateService.cs" t="Include" />
-        </e>
-        <e p="Startup.cs" t="Include" />
-        <e p="Telegram.Bot.Examples.WebHook.csproj" t="IncludeRecursive" />
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="Telegram.Bot.Examples.WebHook.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="wwwroot" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>

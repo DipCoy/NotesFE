@@ -1,3 +1,5 @@
+using System.IO;
+using System.Linq;
 using Application;
 using Application.Converters;
 using Application.Converters.Access;
@@ -23,6 +25,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using NotesFE.Converters;
 using NotesFE.Views.ViewModels.Board;
@@ -73,7 +76,12 @@ namespace NotesFE
             }
 
             app.UseStatusCodePages();
-            app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(env.ContentRootPath, "../../../../NotesFE/wwwroot")),
+                RequestPath = ""
+            });
 
             app.UseAuthentication();
             

@@ -15,6 +15,7 @@ namespace Infrastructure.DataBases
         public LiteDBDataBaseOperations(ILiteDatabase database)
         {
             this.database = database;
+            this.database.CheckpointSize = 1;
         }
 
         public bool TryGetRecord<TRecord>(Expression<Func<TRecord, bool>> filter, out TRecord record)
@@ -36,6 +37,7 @@ namespace Infrastructure.DataBases
                     .GetCollection<TRecord>(collectionName)
                     .Insert(record);
                 guid = bsonValue.AsGuid;
+                
                 return true;
             }
             catch

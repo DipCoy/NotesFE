@@ -4,6 +4,7 @@
     <projectFile>NotesFE/NotesFE.csproj</projectFile>
     <projectFile>NotesFETelegramBot/NotesFETelegramBot.csproj</projectFile>
     <projectFile>Telegram.Bot.Examples.WebHook/Telegram.Bot.Examples.WebHook.csproj</projectFile>
+    <projectFile>AllServices/AllServices.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -25,9 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6499c65-f9e6-47c3-82c5-2ae3a5d6ce19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Boards-log.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boards.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/BotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/IBotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotesFETelegramBot/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesFE/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Application/Converters/Board/BoardContentConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/BoardContentConverter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Converters/Board/BoardConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/BoardConverter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Converters/Board/StickerContentConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Converters/Board/StickerContentConverter.cs" afterDir="false" />
@@ -127,10 +134,33 @@
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csproj.FileListAbsolute.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/AllServices/AllServices.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AllServices/AllServices.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllServices/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllServices/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/netcoreapp3.1/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.Views.pdb" afterDir="false" />
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/NotesFE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/CreateBoard.cshtml.g.cs" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ListBoard.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Boards/ShowMain.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFE/obj/Debug/netcoreapp3.1/Razor/Views/Errors/NotFound.cshtml.g.cs" beforeDir="false" />
@@ -149,6 +179,10 @@
       <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/rider.project.restore.info" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NotesFETelegramBot/obj/Debug/netcoreapp3.1/NotesFETelegramBot.csprojAssemblyReference.cache" afterDir="false" />
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +199,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/NotesFE/Converters/BoardModelConverter.cs" />
@@ -185,6 +220,80 @@
       <option value="$PROJECT_DIR$/NotesFE/Views/Boards/EditBoard.cshtml" />
       <option value="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" />
     </changedPaths>
+=======
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AllServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2D1FC91-A333-45D6-B967-ACDEC2719FDF/7/RouterMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesFETelegramBot/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/446F0B27-F438-492E-A9B0-D11E08CE42DA/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesFE/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/156C0238-EF8C-47E3-80EA-18498A6CFBFF/8/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Records/Board/BoardRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Records/Board/StickerContentRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Records/Board/StickerRecord.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/AccessTypeModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PublicAccessParametersModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/IAccessParametersModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/OnlyOwnerAccessParametersModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/PrivateAccessParametersModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/BoardModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/AccessModel/IStickerContentModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/TimeTableModel.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/wwwroot/js/TimeTableMaker.js" />
+        <option value="$PROJECT_DIR$/Domain/Models/TimeTable.cs" />
+        <option value="$PROJECT_DIR$/Domain/ViewModels/StickerContentModel.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/StickerContent.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Records/StickerContentRecord.cs" />
+        <option value="$PROJECT_DIR$/Application/Converters/StickerContentConverter.cs" />
+        <option value="$PROJECT_DIR$/Application/Converters/BoardConverter.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardContentModel.cs" />
+        <option value="$PROJECT_DIR$/Application/Converters/BoardModelConverter.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/ViewModels/BoardModelConverter.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/wwwroot/js/script.js" />
+        <option value="$PROJECT_DIR$/Application/Converters/Board/BoardConverter.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Records/Board/BoardRecord.cs" />
+        <option value="$PROJECT_DIR$/Application/Services/Board/DefaultBoardService.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Access/PrivateAccessParameters.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Converters/BoardModelConverter.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/_layout.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/ShowMain.cshtml" />
+        <option value="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Services/BotService.cs" />
+        <option value="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/BotConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Telegram.Bot.Examples.WebHook/Program.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Models/Bot.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/AppSettings.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Commands/Command.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Commands/HelloCommand.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Controllers/MessageController.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Bot.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/ListBoard.cshtml" />
+        <option value="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Program.cs" />
+        <option value="$PROJECT_DIR$/AllServices/Program.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Startup.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/IBotService.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/Program.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Startup.cs" />
+        <option value="$PROJECT_DIR$/NotesFE/Views/Boards/CreateBoard.cshtml" />
+        <option value="$PROJECT_DIR$/Infrastructure/DataBases/LiteDBDataBaseOperations.cs" />
+        <option value="$PROJECT_DIR$/NotesFETelegramBot/BotService.cs" />
+      </list>
+    </option>
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
   </component>
   <component name="ProjectId" id="1ldwHQUfWOckct8D7J21cpE8kdp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,16 +308,24 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29983062" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected=".NET Launch Settings Profile.NotesFE">
+=======
+  <component name="RunManager" selected=".NET Project.AllServices">
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
     <configuration name="Publish NotesFE to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
-      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="3ba14846-d1cc-4afe-ad13-2f06ca06c926" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
       <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
-      <option name="AZURE_WEB_APP_ID" value="/subscriptions/3ba14846-d1cc-4afe-ad13-2f06ca06c926/resourceGroups/site/providers/Microsoft.Web/sites/notesfeweb" />
+      <option name="AZURE_WEB_APP_ID" value="" />
       <option name="AZURE_WEB_APP_NAME" value="" />
       <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
       <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
@@ -219,8 +336,8 @@
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
       <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
-      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 3.1" />
-      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="3ba14846-d1cc-4afe-ad13-2f06ca06c926" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
       <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
       <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
       <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
@@ -231,16 +348,16 @@
       <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
       <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
       <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="" />
       <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
       <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
       <method v="2" />
     </configuration>
     <configuration name="Publish NotesFE to Azure (2)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
-      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="3ba14846-d1cc-4afe-ad13-2f06ca06c926" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
       <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
-      <option name="AZURE_WEB_APP_ID" value="/subscriptions/3ba14846-d1cc-4afe-ad13-2f06ca06c926/resourceGroups/site/providers/Microsoft.Web/sites/notesfeweb" />
+      <option name="AZURE_WEB_APP_ID" value="" />
       <option name="AZURE_WEB_APP_NAME" value="" />
       <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
       <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
@@ -251,8 +368,8 @@
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
       <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
-      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 3.1" />
-      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="3ba14846-d1cc-4afe-ad13-2f06ca06c926" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
       <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
       <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
       <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
@@ -263,7 +380,39 @@
       <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
       <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
       <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish NotesFE to Azure (4)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="" />
       <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
       <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
       <method v="2" />
@@ -300,6 +449,24 @@
       <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
       <method v="2" />
     </configuration>
+    <configuration name="AllServices" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AllServices/AllServices.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Telegram.Bot.Examples.WebHook" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -317,6 +484,10 @@
       <method v="2">
         <option name="Build" />
       </method>
+    </configuration>
+    <configuration name="Publish NotesFE to custom server" type="DotNetPublishAndUpload" factoryName="Publish to custom server" temporary="true">
+      <riderPublish uuid_high="8474741044661405639" uuid_low="-8447498468830270880" />
+      <method v="2" />
     </configuration>
     <configuration name="NotesFE" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/NotesFE/NotesFE.csproj" />
@@ -378,6 +549,18 @@
         <option name="Build" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Azure - Publish Web App.Publish NotesFE to Azure (2)" />
+        <item itemvalue="Azure - Publish Web App.Publish NotesFE to Azure (1)" />
+        <item itemvalue="Azure - Publish Web App.Publish NotesFE to Azure" />
+        <item itemvalue="Azure - Publish Web App.Publish NotesFE to Azure (4)" />
+        <item itemvalue="Publish to custom server.Publish NotesFE to custom server" />
+      </list>
+    </recent_temporary>
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -388,8 +571,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607940196434</updated>
       <workItem from="1607940234668" duration="10240000" />
+<<<<<<< HEAD
       <workItem from="1611499265635" duration="2866000" />
       <workItem from="1611503670767" duration="31875000" />
+=======
+      <workItem from="1611518371405" duration="1484000" />
+      <workItem from="1611572372155" duration="3136000" />
+      <workItem from="1611576949574" duration="22332000" />
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
     </task>
     <servers />
   </component>
@@ -413,4 +602,140 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="WindowStateProjectService">
+    <state x="586" y="219" width="800" height="684" key="#Deployment" timestamp="1611519224819">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="586" y="219" width="800" height="684" key="#Deployment/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611519224819" />
+    <state x="751" y="376" width="643" height="362" key="#Docker" timestamp="1611582699188">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="751" y="376" width="643" height="362" key="#Docker/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611582699188" />
+    <state x="690" y="355" width="627" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607975707822">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="690" y="355" width="627" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607975707822" />
+    <state width="1802" height="455" key="GridCell.Tab.0.bottom" timestamp="1611603778861">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="455" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
+    <state width="1776" height="49" key="GridCell.Tab.0.bottom/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
+    <state width="1802" height="455" key="GridCell.Tab.0.center" timestamp="1611603778861">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="455" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
+    <state width="1776" height="49" key="GridCell.Tab.0.center/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
+    <state width="1802" height="455" key="GridCell.Tab.0.left" timestamp="1611603778860">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="455" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778860" />
+    <state width="1776" height="49" key="GridCell.Tab.0.left/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
+    <state width="1802" height="455" key="GridCell.Tab.0.right" timestamp="1611603778861">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="455" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611603778861" />
+    <state width="1776" height="49" key="GridCell.Tab.0.right/88.34.1832.1046@88.34.1832.1046" timestamp="1607955270100" />
+    <state width="1802" height="346" key="GridCell.Tab.1.bottom" timestamp="1607976734714">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734714" />
+    <state width="1802" height="346" key="GridCell.Tab.1.center" timestamp="1607976734714">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734714" />
+    <state width="1802" height="346" key="GridCell.Tab.1.left" timestamp="1607976734714">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734714" />
+    <state width="1802" height="346" key="GridCell.Tab.1.right" timestamp="1607976734714">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734714" />
+    <state width="1802" height="346" key="GridCell.Tab.2.bottom" timestamp="1607976734726">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.2.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734726" />
+    <state width="1802" height="346" key="GridCell.Tab.2.center" timestamp="1607976734725">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.2.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734725" />
+    <state width="1802" height="346" key="GridCell.Tab.2.left" timestamp="1607976734725">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.2.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734725" />
+    <state width="1802" height="346" key="GridCell.Tab.2.right" timestamp="1607976734725">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.2.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734725" />
+    <state width="1802" height="346" key="GridCell.Tab.3.bottom" timestamp="1607976734726">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.3.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734726" />
+    <state width="1802" height="346" key="GridCell.Tab.3.center" timestamp="1607976734726">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.3.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734726" />
+    <state width="1802" height="346" key="GridCell.Tab.3.left" timestamp="1607976734726">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.3.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734726" />
+    <state width="1802" height="346" key="GridCell.Tab.3.right" timestamp="1607976734726">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.3.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734726" />
+    <state width="1802" height="346" key="GridCell.Tab.4.bottom" timestamp="1607976734730">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.4.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734730" />
+    <state width="1802" height="346" key="GridCell.Tab.4.center" timestamp="1607976734730">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.4.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734730" />
+    <state width="1802" height="346" key="GridCell.Tab.4.left" timestamp="1607976734729">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.4.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734729" />
+    <state width="1802" height="346" key="GridCell.Tab.4.right" timestamp="1607976734730">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="346" key="GridCell.Tab.4.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607976734730" />
+    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1611580802148">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="288" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611580802148" />
+    <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog" timestamp="1607968868777">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="791" y="235" width="399" height="643" key="RiderGenerateDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607968868777" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1611582662858">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611582662858" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1607968152307">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607968152307" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/NotesFE/Controllers/BoardsController.cs" initialLine="28">
+            <startOffsets>
+              <option value="903" />
+            </startOffsets>
+            <endOffsets>
+              <option value="953" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> dbaee06ff63e8573bc0a8d1d0fe328238d5304e6
 </project>

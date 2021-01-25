@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesFETelegramBot", "NotesFETelegramBot\NotesFETelegramBot.csproj", "{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Examples.WebHook", "Telegram.Bot.Examples.WebHook\Telegram.Bot.Examples.WebHook.csproj", "{1085E79B-CF8A-4EDF-B855-4C610B600203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllServices", "AllServices\AllServices.csproj", "{16D870A6-855E-444A-BE93-C95D4D51744F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +38,9 @@ Global
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1429A0B-4382-483C-A84C-1D6BDDDC0ED4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1085E79B-CF8A-4EDF-B855-4C610B600203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D870A6-855E-444A-BE93-C95D4D51744F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D870A6-855E-444A-BE93-C95D4D51744F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D870A6-855E-444A-BE93-C95D4D51744F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D870A6-855E-444A-BE93-C95D4D51744F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

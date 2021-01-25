@@ -2,22 +2,29 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Telegram.Bot;
+using Telegram.Bot.Args;
+using Telegram.Bot.Types.Enums;
 
 namespace NotesFETelegramBot
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main()
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            var startup = new Startup();
+            var serviceCollection = new ServiceCollection();
+            startup.ConfigureServices(serviceCollection);
+            var serviceProvider = serviceCollection.BuildServiceProvider();
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+            var botService = serviceProvider.GetService<IBotService>();
+            await botService.Run();
+
+            Console.ReadLine();
+            botService.Stop();
+        }
     }
 }
