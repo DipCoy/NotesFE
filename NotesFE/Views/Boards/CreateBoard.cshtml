@@ -2,50 +2,115 @@
     Layout = "../_layout";
 }
 
-@section Auth {
-    @{
-        if (User.Identity.IsAuthenticated)
-        {
-            <div>
-                <form action="/logout">
-                    @User.Identity.Name
-                    <button type="submit" class="btn btn-link">Logout</button>
-                </form>
-            </div>
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Cover Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
         }
-        else
-        {
-            <form action="/login">
-                <button class="w-80 btn btn-lg btn-light" type="submit">Sign in</button>
-            </form>
-            <form action="/register">
-                <button class="w-80 btn btn-lg btn-primary" type="submit">Sign up</button>
-            </form>
-        }
-    }
-}
+      }
+    </style>
 
-<form action="/">
-    <button type="submit" class="btn btn-success">Home</button>
-</form>
-
-<div>
-    <label>Stickers:</label><br />
-    <form method="post">
-        <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this);">Для всех</p><br/>
-        <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this);">Только для некоторых</p><br/>
-
-        <div>
-            <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_text_sticker();">Добавить стикер</button>
-        </div>
-
-        <div>
-            <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_table_sticker();">Добавить расписание</button>
-        </div>
-
-        <div class="mp-2">
-            <button type="submit" class="btn btn-success">Submit</button>
-        </div>
-    </form>
-    <script src="js/CreateBoard.js"></script>
-</div>
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  <script src="//widget-feature.local" async></script>
+</head>
+  <body class="d-flex h-100 text-center text-black bg-blue">
+  @section Auth {
+            @{
+                if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                            <header class="mb-auto">
+                                <div>
+                                    <h3 class="float-md-start mb-0">Sinrise Soft</h3>
+                                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <form action="/logout">
+                                            <a class="nav-link active" aria-current="page">@User.Identity.Name</a>
+                                        </form>
+                                        <form action="/logout">
+                                            <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
+                                        </form>
+                                        
+                                    </nav>
+                                </div>
+                                <form method="post">
+                                    <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this);">Для всех</p><br/>
+                                    <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this);">Только для некоторых</p><br/>
+                                                                      
+                                    <div>
+                                        <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_text_sticker();">Добавить стикер</button>
+                                    </div>
+                                                                      
+                                    <div>
+                                        <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_table_sticker();">Добавить расписание</button>
+                                    </div>
+                                                                      
+                                    <div class="mp-2">
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                </form>
+                                
+                            </header>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                            <header class="mb-auto">
+                                <div>
+                                    <h3 class="float-md-start mb-0">Sunrise Soft</h3>
+                                    <nav class="nav nav-masthead justify-content-center float-md-end">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <form action="/login">
+                                            <a class="nav-link active" aria-current="page" href="/login">Sign in</a>
+                                        </form>
+                                        <form action="/register">
+                                            <a class="nav-link active" aria-current="page" href="/register">Sign up</a>
+                                        </form>
+                                    </nav>
+                                </div>
+                                <form method="post">
+                                    <p><input name="boardModel.AccessType" type="radio" value="Public" checked onclick="select_users_access(this);">Для всех</p><br/>
+                                    <p><input name="boardModel.AccessType" type="radio" value="Private" id="privateRB" onclick="select_users_access(this);">Только для некоторых</p><br/>
+                                                                      
+                                    <div>
+                                        <button type="button" id="add_input" class="btn btn-primary btn-lg active" onclick="add_text_sticker();">Добавить стикер</button>
+                                    </div>
+                                                                      
+                                    <div>
+                                        <button type="button" id="add_table" class="btn btn-primary btn-lg active" onclick="add_table_sticker();">Добавить расписание</button>
+                                    </div>
+                                                                      
+                                    <div class="mp-2">
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                </form>
+                            </header>  
+                        </div>
+                    }
+            }
+  }
+  <script src="js/CreateBoard.js"></script>
+  </body>
+</html>
